@@ -1,5 +1,6 @@
 package com.parkern.firstmod;
 
+import com.parkern.firstmod.block.ModBlocks;
 import com.parkern.firstmod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -56,6 +57,7 @@ public class FirstMod {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -72,6 +74,10 @@ public class FirstMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.RUBBERDUCK);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.SHALE_BLOCK);
         }
     }
 
