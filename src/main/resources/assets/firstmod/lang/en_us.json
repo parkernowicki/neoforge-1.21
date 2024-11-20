@@ -1,5 +1,7 @@
 {
   "item.firstmod.rubberduck": "Rubber Duck",
 
-  "block.firstmod.shale_block": "Shale"
+  "block.firstmod.shale_block": "Shale",
+
+  "creativetab.firstmod.firstmod_items": "First Mod Items"
 }
