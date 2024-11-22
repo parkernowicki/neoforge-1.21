@@ -16,11 +16,17 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, FirstMod.MOD_ID);
 
     public static final Supplier<CreativeModeTab> FIRSTMOD_ITEMS_TAB = CREATIVE_MODE_TAB.register("firstmod_items_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.RUBBERDUCK.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.RUBBER_DUCK.get()))
                     .title(Component.translatable("creativetab.firstmod.firstmod_items"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.RUBBERDUCK);
+                        output.accept(ModItems.RUBBER_DUCK);
+                        output.accept(ModItems.DUCK_ESSENCE);
                         output.accept(ModBlocks.SHALE_BLOCK);
+                        output.accept(ModItems.SHALE_OIL);
+                        output.accept(ModBlocks.TITANITE_ORE);
+                        output.accept(ModItems.RAW_TITANITE);
+
+                        output.accept(ModItems.MAGIC_WAND);
                     }).build());
 
     public static void register(IEventBus eventBus) {

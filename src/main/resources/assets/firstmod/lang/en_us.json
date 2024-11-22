@@ -1,7 +1,12 @@
 {
-  "item.firstmod.rubberduck": "Rubber Duck",
+  "item.firstmod.rubber_duck": "Rubber Duck",
+  "item.firstmod.duck_essence": "Duck Essence",
+  "item.firstmod.shale_oil": "Shale Oil",
+  "item.firstmod.raw_titanite": "Raw Titanite",
+  "item.firstmod.magic_wand": "Magic Wand",
 
   "block.firstmod.shale_block": "Shale",
+  "block.firstmod.titanite_ore": "Titanite Ore",
 
   "creativetab.firstmod.firstmod_items": "First Mod Items"
 }
