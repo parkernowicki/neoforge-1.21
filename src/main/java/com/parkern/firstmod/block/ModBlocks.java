@@ -1,6 +1,7 @@
 package com.parkern.firstmod.block;
 
 import com.parkern.firstmod.FirstMod;
+import com.parkern.firstmod.block.custom.WithererBlock;
 import com.parkern.firstmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -25,6 +26,9 @@ public class ModBlocks {
     public static final DeferredBlock<Block> TITANITE_ORE = registerBlock("titanite_ore",
             () -> new DropExperienceBlock(UniformInt.of(2, 4),
                     BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> WITHERER = registerBlock("witherer",
+            () -> new WithererBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

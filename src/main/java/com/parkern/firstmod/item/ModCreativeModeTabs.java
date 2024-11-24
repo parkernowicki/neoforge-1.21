@@ -25,8 +25,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SHALE_OIL);
                         output.accept(ModBlocks.TITANITE_ORE);
                         output.accept(ModItems.RAW_TITANITE);
-
                         output.accept(ModItems.MAGIC_WAND);
+                        output.accept(ModBlocks.WITHERER);
+
                     }).build());
 
     public static void register(IEventBus eventBus) {
