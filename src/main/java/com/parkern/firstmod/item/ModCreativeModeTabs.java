@@ -27,6 +27,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAW_TITANITE);
                         output.accept(ModItems.MAGIC_WAND);
                         output.accept(ModBlocks.WITHERER);
+                        output.accept(ModItems.BREAD_PUDDING);
+                        output.accept(ModItems.PROPANE);
 
                     }).build());
 
