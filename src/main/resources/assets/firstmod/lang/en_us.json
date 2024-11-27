@@ -9,8 +9,11 @@
 
   "block.firstmod.shale_block": "Shale",
   "block.firstmod.titanite_ore": "Titanite Ore",
-
   "block.firstmod.witherer": "Witherer",
 
-  "creativetab.firstmod.firstmod_items": "First Mod Items"
+  "creativetab.firstmod.firstmod_items": "First Mod Items",
+
+  "tooltip.firstmod.witherer.tooltip": "It emanates §0necrotic energies...§r",
+  "tooltip.firstmod.magic_wand.shift_down": "Magical!",
+  "tooltip.firstmod.magic_wand": "Press §eShift§r for more info"
 }

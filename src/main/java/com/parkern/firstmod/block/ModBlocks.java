@@ -3,9 +3,12 @@ package com.parkern.firstmod.block;
 import com.parkern.firstmod.FirstMod;
 import com.parkern.firstmod.block.custom.WithererBlock;
 import com.parkern.firstmod.item.ModItems;
+import net.minecraft.network.chat.Component;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
@@ -14,6 +17,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
+import java.util.List;
 import java.util.function.Supplier;
 
 public class ModBlocks {
@@ -28,7 +32,13 @@ public class ModBlocks {
                     BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     public static final DeferredBlock<Block> WITHERER = registerBlock("witherer",
-            () -> new WithererBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+            () -> new WithererBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()) {
+                @Override
+                public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    tooltipComponents.add(Component.translatable("tooltip.firstmod.witherer.tooltip"));
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            });
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
