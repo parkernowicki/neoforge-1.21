@@ -32,7 +32,7 @@ public class ModBlocks {
                     BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     public static final DeferredBlock<Block> WITHERER = registerBlock("witherer",
-            () -> new WithererBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()) {
+            () -> new WithererBlock(BlockBehaviour.Properties.of().strength(2f).noLootTable()) {
                 @Override
                 public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
                     tooltipComponents.add(Component.translatable("tooltip.firstmod.witherer.tooltip"));
