@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "firstmod:block/shale_slab"
+    },
+    "type=double": {
+      "model": "firstmod:block/shale_block"
+    },
+    "type=top": {
+      "model": "firstmod:block/shale_slab_top"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "firstmod:witherer"
+    }
+  ],
+  "result": {
+    "count": 18,
+    "id": "firstmod:duck_essence"
+  }
+}

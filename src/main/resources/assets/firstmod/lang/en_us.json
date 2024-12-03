@@ -11,6 +11,16 @@
   "block.firstmod.titanite_ore": "Titanite Ore",
   "block.firstmod.witherer": "Witherer",
 
+  "block.firstmod.shale_stairs": "Shale Stairs",
+  "block.firstmod.shale_slab": "Shale Slab",
+  "block.firstmod.shale_pressure_plate": "Shale Pressure Plate",
+  "block.firstmod.shale_button": "Shale Button",
+  "block.firstmod.shale_fence": "Shale Fence",
+  "block.firstmod.shale_fence_gate": "Shale Fence Gate",
+  "block.firstmod.shale_wall": "Shale Wall",
+  "block.firstmod.shale_door": "Shale Door",
+  "block.firstmod.shale_trapdoor": "Shale Trapdoor",
+
   "creativetab.firstmod.firstmod_items": "First Mod Items",
 
   "tooltip.firstmod.witherer.tooltip": "It emanates §0necrotic energies...§r",

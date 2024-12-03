@@ -9,10 +9,10 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.DropExperienceBlock;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
+import net.minecraft.world.level.block.state.properties.WoodType;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -39,6 +39,29 @@ public class ModBlocks {
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
                 }
             });
+
+    public static final DeferredBlock<StairBlock> SHALE_STAIRS = registerBlock("shale_stairs",
+            () -> new StairBlock(ModBlocks.SHALE_BLOCK.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<SlabBlock> SHALE_SLAB = registerBlock("shale_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<PressurePlateBlock> SHALE_PRESSURE_PLATE = registerBlock("shale_pressure_plate",
+            () -> new PressurePlateBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<ButtonBlock> SHALE_BUTTON = registerBlock("shale_button",
+            () -> new ButtonBlock(BlockSetType.IRON, 20, BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().noCollission()));
+
+    public static final DeferredBlock<FenceBlock> SHALE_FENCE = registerBlock("shale_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<FenceGateBlock> SHALE_FENCE_GATE = registerBlock("shale_fence_gate",
+            () -> new FenceGateBlock(WoodType.ACACIA, BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<WallBlock> SHALE_WALL = registerBlock("shale_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<DoorBlock> SHALE_DOOR = registerBlock("shale_door",
+            () -> new DoorBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().noOcclusion()));
+    public static final DeferredBlock<TrapDoorBlock> SHALE_TRAPDOOR = registerBlock("shale_trapdoor",
+            () -> new TrapDoorBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().noOcclusion()));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

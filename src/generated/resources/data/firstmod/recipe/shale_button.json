@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "shale",
+  "ingredients": [
+    {
+      "item": "firstmod:shale_block"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "firstmod:shale_button"
+  }
+}

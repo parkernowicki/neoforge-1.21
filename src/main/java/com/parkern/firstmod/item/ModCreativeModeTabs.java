@@ -30,6 +30,16 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.BREAD_PUDDING);
                         output.accept(ModItems.PROPANE);
 
+                        output.accept(ModBlocks.SHALE_STAIRS);
+                        output.accept(ModBlocks.SHALE_SLAB);
+                        output.accept(ModBlocks.SHALE_PRESSURE_PLATE);
+                        output.accept(ModBlocks.SHALE_BUTTON);
+                        output.accept(ModBlocks.SHALE_FENCE);
+                        output.accept(ModBlocks.SHALE_FENCE_GATE);
+                        output.accept(ModBlocks.SHALE_WALL);
+                        output.accept(ModBlocks.SHALE_DOOR);
+                        output.accept(ModBlocks.SHALE_TRAPDOOR);
+
                     }).build());
 
     public static void register(IEventBus eventBus) {

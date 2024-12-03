@@ -1,0 +1,12 @@
+// 1.21.1	2024-12-02T22:12:50.7459867	Loot Tables
+6e09fa3d4550f3784ba23e73cb82f0def10c6099 data/firstmod/loot_table/blocks/shale_block.json
+0faa3afa13373345656cba87b197076aa4e03da8 data/firstmod/loot_table/blocks/shale_button.json
+9ead935c8a579a65200c3fc613b3581a9db2d179 data/firstmod/loot_table/blocks/shale_door.json
+2b1e6e68e8a6fa603bc2afb989e223a563b04e78 data/firstmod/loot_table/blocks/shale_fence.json
+b38a0b54eed248dbd9be425864463f109c4e739a data/firstmod/loot_table/blocks/shale_fence_gate.json
+64b365e93d77cad768a7bf1a4ee29984b69acf69 data/firstmod/loot_table/blocks/shale_pressure_plate.json
+5c75639d5305b314add3ac43728c56dfc05e39f0 data/firstmod/loot_table/blocks/shale_slab.json
+60eadddc8632116d4829418905b2467ef2167d98 data/firstmod/loot_table/blocks/shale_stairs.json
+0be40901b6e90b1bf890ec17733caa63e503c8d7 data/firstmod/loot_table/blocks/shale_trapdoor.json
+bf3f29afeaaa455abba2e9a0e0ef9cd242806ca0 data/firstmod/loot_table/blocks/shale_wall.json
+4b679114976e9ecf39e0d9d3d0a6a839b0b5a4f7 data/firstmod/loot_table/blocks/titanite_ore.json

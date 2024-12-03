@@ -33,6 +33,19 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
                 //block -> createOreDrop(ModBlocks.TITANITE_ORE.get(), ModItems.RAW_TITANITE.get()));
         add(ModBlocks.TITANITE_ORE.get(),
                 block -> createMultipleOreDrops(ModBlocks.TITANITE_ORE.get(), ModItems.RAW_TITANITE.get(), 2, 5));
+
+        dropSelf(ModBlocks.SHALE_STAIRS.get());
+        add(ModBlocks.SHALE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.SHALE_SLAB.get()));
+        dropSelf(ModBlocks.SHALE_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.SHALE_BUTTON.get());
+        dropSelf(ModBlocks.SHALE_FENCE.get());
+        dropSelf(ModBlocks.SHALE_FENCE_GATE.get());
+        dropSelf(ModBlocks.SHALE_WALL.get());
+        dropSelf(ModBlocks.SHALE_TRAPDOOR.get());
+        add(ModBlocks.SHALE_DOOR.get(),
+                block -> createDoorTable(ModBlocks.SHALE_DOOR.get()));
+
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {

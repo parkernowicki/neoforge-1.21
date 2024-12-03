@@ -40,6 +40,25 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         oreSmelting(recipeOutput, SHALE_SMELTABLES, RecipeCategory.MISC, ModItems.SHALE_OIL.get(), 0.1f, 200, "shale");
         oreBlasting(recipeOutput, SHALE_SMELTABLES, RecipeCategory.MISC, ModItems.SHALE_OIL.get(), 0.1f, 100, "shale");
+
+        stairBuilder(ModBlocks.SHALE_STAIRS.get(), Ingredient.of(ModBlocks.SHALE_BLOCK)).group("shale")
+                .unlockedBy("has_shale_block", has(ModBlocks.SHALE_BLOCK)).save(recipeOutput);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SHALE_SLAB.get(), ModBlocks.SHALE_BLOCK.get());
+
+        buttonBuilder(ModBlocks.SHALE_BUTTON.get(), Ingredient.of(ModBlocks.SHALE_BLOCK.get())).group("shale")
+                .unlockedBy("has_shale_block", has(ModBlocks.SHALE_BLOCK.get())).save(recipeOutput);
+        pressurePlate(recipeOutput, ModBlocks.SHALE_PRESSURE_PLATE.get(), ModBlocks.SHALE_BLOCK.get());
+
+        fenceBuilder(ModBlocks.SHALE_FENCE.get(), Ingredient.of(ModBlocks.SHALE_BLOCK.get())).group("shale")
+                .unlockedBy("has_shale_block", has(ModBlocks.SHALE_BLOCK.get())).save(recipeOutput);
+        fenceGateBuilder(ModBlocks.SHALE_FENCE_GATE.get(), Ingredient.of(ModBlocks.SHALE_BLOCK.get())).group("shale")
+                .unlockedBy("has_shale_block", has(ModBlocks.SHALE_BLOCK.get())).save(recipeOutput);
+        wall(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SHALE_WALL.get(), ModBlocks.SHALE_BLOCK.get());
+
+        doorBuilder(ModBlocks.SHALE_DOOR.get(), Ingredient.of(ModBlocks.SHALE_BLOCK.get())).group("shale")
+                .unlockedBy("has_shale_block", has(ModBlocks.SHALE_BLOCK.get())).save(recipeOutput);
+        trapdoorBuilder(ModBlocks.SHALE_TRAPDOOR.get(), Ingredient.of(ModBlocks.SHALE_BLOCK.get())).group("shale")
+                .unlockedBy("has_shale_block", has(ModBlocks.SHALE_BLOCK.get())).save(recipeOutput);
     }
 
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_rubber_duck": {
+      "conditions": {
+        "items": [
+          {
+            "items": "firstmod:rubber_duck"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "firstmod:duck_essence"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_rubber_duck"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "firstmod:duck_essence"
+    ]
+  }
+}
