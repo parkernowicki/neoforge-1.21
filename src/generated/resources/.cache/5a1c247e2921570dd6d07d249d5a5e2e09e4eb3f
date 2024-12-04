@@ -1,4 +1,5 @@
-// 1.21.1	2024-12-02T22:12:50.7459867	Block States: firstmod
+// 1.21.1	2024-12-03T23:47:56.4115066	Block States: firstmod
+b953da76e413facfbadb2d4fce0e0e6d8c0c9df7 assets/firstmod/blockstates/bismuth_lamp.json
 039b66226440296d9cf67ae5bea5fde7b24aaa9e assets/firstmod/blockstates/shale_block.json
 ee602e4f1e45adb71bf76cb8a3c36215b827afe8 assets/firstmod/blockstates/shale_button.json
 34f6a3568c820a9a75795b41bc65d3ab42315ca3 assets/firstmod/blockstates/shale_door.json
@@ -11,6 +12,8 @@ e0b4d3f93a56557d9f5aa2b401ae1906fe6ee06e assets/firstmod/blockstates/shale_trapd
 217f908e5ebafd9174c7aa65cb426e0e3e92ce0f assets/firstmod/blockstates/shale_wall.json
 135061ef43b0bee8f1d63e69846faa00634037f0 assets/firstmod/blockstates/titanite_ore.json
 4907f8c27a84f67f9a81b38f9eb3572cd8824657 assets/firstmod/blockstates/witherer.json
+c2c998f82da4e041042ca634de352b391c09139c assets/firstmod/models/block/bismuth_lamp_off.json
+5cba9e4a20bf4ea83ca3a860878de8ef3e567b7b assets/firstmod/models/block/bismuth_lamp_on.json
 f3afe7bee447044ec5cfef3e277791097f49d717 assets/firstmod/models/block/shale_block.json
 8d3d419bd11ea9a2d2c643afc66ef562357a6ec2 assets/firstmod/models/block/shale_button.json
 dde95ecf884ea714ce134868ecf0a5f1e91c32a9 assets/firstmod/models/block/shale_button_pressed.json
@@ -43,6 +46,7 @@ a4f9b058ad57b7293ef8ac14d13ae245e364dc13 assets/firstmod/models/block/shale_wall
 6abf878f93af27188857ae9df7d3b8efaace749a assets/firstmod/models/block/shale_wall_side_tall.json
 2938184fb217d3d4bbf526c77c6a0ef1a7faaa74 assets/firstmod/models/block/titanite_ore.json
 0807375cf8254facf30c50b2f7a91f1f491f1ce2 assets/firstmod/models/block/witherer.json
+5d1bcbbb36b1a39b9dcdba3982a128245469fa8f assets/firstmod/models/item/bismuth_lamp.json
 71159b1cf4f960147efbae906e8afdaecafc63f5 assets/firstmod/models/item/shale_block.json
 e9ea26ab2bd44d17846976515e3f8efb4c066e60 assets/firstmod/models/item/shale_fence_gate.json
 f3c8df6b72dc76bb2b168f37cbc74fae793fd5ea assets/firstmod/models/item/shale_pressure_plate.json

@@ -1,4 +1,5 @@
-// 1.21.1	2024-12-02T22:12:50.7459867	Loot Tables
+// 1.21.1	2024-12-03T23:47:56.4095051	Loot Tables
+e19a851a950898b072c0254e5d2fe1752cf9a67f data/firstmod/loot_table/blocks/bismuth_lamp.json
 6e09fa3d4550f3784ba23e73cb82f0def10c6099 data/firstmod/loot_table/blocks/shale_block.json
 0faa3afa13373345656cba87b197076aa4e03da8 data/firstmod/loot_table/blocks/shale_button.json
 9ead935c8a579a65200c3fc613b3581a9db2d179 data/firstmod/loot_table/blocks/shale_door.json

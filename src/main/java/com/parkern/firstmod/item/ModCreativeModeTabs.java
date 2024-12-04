@@ -39,6 +39,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.SHALE_WALL);
                         output.accept(ModBlocks.SHALE_DOOR);
                         output.accept(ModBlocks.SHALE_TRAPDOOR);
+                        output.accept(ModBlocks.BISMUTH_LAMP);
 
                     }).build());
 

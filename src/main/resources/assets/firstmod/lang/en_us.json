@@ -21,6 +21,8 @@
   "block.firstmod.shale_door": "Shale Door",
   "block.firstmod.shale_trapdoor": "Shale Trapdoor",
 
+  "block.firstmod.bismuth_lamp": "Bismuth Lamp",
+
   "creativetab.firstmod.firstmod_items": "First Mod Items",
 
   "tooltip.firstmod.witherer.tooltip": "It emanates §0necrotic energies...§r",

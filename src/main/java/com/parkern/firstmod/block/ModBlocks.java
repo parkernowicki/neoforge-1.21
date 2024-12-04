@@ -1,6 +1,7 @@
 package com.parkern.firstmod.block;
 
 import com.parkern.firstmod.FirstMod;
+import com.parkern.firstmod.block.custom.BismuthLampBlock;
 import com.parkern.firstmod.block.custom.WithererBlock;
 import com.parkern.firstmod.item.ModItems;
 import net.minecraft.network.chat.Component;
@@ -62,6 +63,10 @@ public class ModBlocks {
             () -> new DoorBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().noOcclusion()));
     public static final DeferredBlock<TrapDoorBlock> SHALE_TRAPDOOR = registerBlock("shale_trapdoor",
             () -> new TrapDoorBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().noOcclusion()));
+
+    public static final DeferredBlock<Block> BISMUTH_LAMP = registerBlock("bismuth_lamp",
+            () -> new BismuthLampBlock(BlockBehaviour.Properties.of().strength(2f)
+                    .requiresCorrectToolForDrops().lightLevel(state -> state.getValue(BismuthLampBlock.CLICKED) ? 15 : 0)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
