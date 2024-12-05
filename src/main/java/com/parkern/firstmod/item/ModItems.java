@@ -1,6 +1,7 @@
 package com.parkern.firstmod.item;
 
 import com.parkern.firstmod.FirstMod;
+import com.parkern.firstmod.component.ModDataComponents;
 import com.parkern.firstmod.item.custom.MagicWandItem;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
@@ -33,6 +34,10 @@ public class ModItems {
                     } else {
                         tooltipComponents.add(Component.translatable("tooltip.firstmod.magic_wand"));
                     }
+                    if(stack.get(ModDataComponents.COORDINATES) != null) {
+                        tooltipComponents.add(Component.literal("Last block changed at " + stack.get(ModDataComponents.COORDINATES)));
+                    }
+
                     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
                 }
             });

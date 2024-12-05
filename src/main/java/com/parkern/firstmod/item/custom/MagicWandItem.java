@@ -1,6 +1,7 @@
 package com.parkern.firstmod.item.custom;
 
 import com.parkern.firstmod.block.ModBlocks;
+import com.parkern.firstmod.component.ModDataComponents;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
@@ -50,6 +51,8 @@ public class MagicWandItem extends Item {
                         item -> context.getPlayer().onEquippedItemBroken(item, EquipmentSlot.MAINHAND));
 
                 level.playSound(null, context.getClickedPos(), SoundEvents.ENDER_EYE_DEATH, SoundSource.BLOCKS);
+
+                context.getItemInHand().set(ModDataComponents.COORDINATES, context.getClickedPos());
             }
         }
 
