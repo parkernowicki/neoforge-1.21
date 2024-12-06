@@ -1,2 +1,7 @@
-// 1.21.1	2024-12-01T19:03:05.384845	Tags for minecraft:item mod id firstmod
+// 1.21.1	2024-12-05T20:50:57.4378498	Tags for minecraft:item mod id firstmod
 12f3abe6c6f2637a1660ac03c7ca4b58fd4e3f86 data/firstmod/tags/item/transformable_items.json
+7322c6130bd914f49d3c56a57893b5103ebccffd data/minecraft/tags/item/axes.json
+243cd240327f489503b077a5540e5189309e01d9 data/minecraft/tags/item/hoes.json
+8071066d795f97e48e40d3c523c47c00429c1b84 data/minecraft/tags/item/pickaxes.json
+dc9f38a73f19c393e0325ea330edc73f585b85b5 data/minecraft/tags/item/shovels.json
+c12c50ed3a7431486a15597a3b8af6262c53517f data/minecraft/tags/item/swords.json

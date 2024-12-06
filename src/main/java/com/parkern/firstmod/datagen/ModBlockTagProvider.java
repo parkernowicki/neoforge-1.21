@@ -2,6 +2,7 @@ package com.parkern.firstmod.datagen;
 
 import com.parkern.firstmod.FirstMod;
 import com.parkern.firstmod.block.ModBlocks;
+import com.parkern.firstmod.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -29,5 +30,12 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(BlockTags.FENCES).add(ModBlocks.SHALE_FENCE.get());
         tag(BlockTags.FENCE_GATES).add(ModBlocks.SHALE_FENCE_GATE.get());
         tag(BlockTags.WALLS).add(ModBlocks.SHALE_WALL.get());
+
+        tag(ModTags.Blocks.NEEDS_TITANITE_TOOL)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
+
+        tag(ModTags.Blocks.INCORRECT_FOR_TITANITE_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_IRON_TOOL)
+                .remove(ModTags.Blocks.NEEDS_TITANITE_TOOL);
     }
 }

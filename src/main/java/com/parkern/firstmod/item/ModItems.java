@@ -5,9 +5,7 @@ import com.parkern.firstmod.component.ModDataComponents;
 import com.parkern.firstmod.item.custom.MagicWandItem;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -45,6 +43,22 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoodProperties.BREAD_PUDDING)));
     public static final DeferredItem<Item> PROPANE = ITEMS.register("propane",
             () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<SwordItem> TITANITE_SWORD = ITEMS.register("titanite_sword",
+            () -> new SwordItem(ModToolTiers.TITANITE, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.TITANITE, 5, 3f))));
+    public static final DeferredItem<PickaxeItem> TITANITE_PICKAXE = ITEMS.register("titanite_pickaxe",
+                () -> new PickaxeItem(ModToolTiers.TITANITE, new Item.Properties()
+                        .attributes(PickaxeItem.createAttributes(ModToolTiers.TITANITE, 1.0f, -2.8f))));
+    public static final DeferredItem<ShovelItem> TITANITE_SHOVEL = ITEMS.register("titanite_shovel",
+                () -> new ShovelItem(ModToolTiers.TITANITE, new Item.Properties()
+                        .attributes(ShovelItem.createAttributes(ModToolTiers.TITANITE, 1.5f, -3.0f))));
+    public static final DeferredItem<AxeItem> TITANITE_AXE = ITEMS.register("titanite_axe",
+                () -> new AxeItem(ModToolTiers.TITANITE, new Item.Properties()
+                        .attributes(AxeItem.createAttributes(ModToolTiers.TITANITE, 6.0f, -3.2f))));
+    public static final DeferredItem<HoeItem> TITANITE_HOE = ITEMS.register("titanite_hoe",
+                () -> new HoeItem(ModToolTiers.TITANITE, new Item.Properties()
+                        .attributes(HoeItem.createAttributes(ModToolTiers.TITANITE, 0f, -3.0f))));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

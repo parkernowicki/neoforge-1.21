@@ -7,6 +7,12 @@
   "item.firstmod.bread_pudding": "Bread Pudding",
   "item.firstmod.propane": "Propane",
 
+  "item.firstmod.titanite_sword": "Titanite Sword",
+  "item.firstmod.titanite_pickaxe": "Titanite Pickaxe",
+  "item.firstmod.titanite_shovel": "Titanite Shovel",
+  "item.firstmod.titanite_axe": "Titanite Axe",
+  "item.firstmod.titanite_hoe": "Titanite Hoe",
+
   "block.firstmod.shale_block": "Shale",
   "block.firstmod.titanite_ore": "Titanite Ore",
   "block.firstmod.witherer": "Witherer",

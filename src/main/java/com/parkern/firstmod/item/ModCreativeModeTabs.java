@@ -41,6 +41,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.SHALE_TRAPDOOR);
                         output.accept(ModBlocks.BISMUTH_LAMP);
 
+                        output.accept(ModItems.TITANITE_SWORD);
+                        output.accept(ModItems.TITANITE_PICKAXE);
+                        output.accept(ModItems.TITANITE_SHOVEL);
+                        output.accept(ModItems.TITANITE_AXE);
+                        output.accept(ModItems.TITANITE_HOE);
+
                     }).build());
 
     public static void register(IEventBus eventBus) {

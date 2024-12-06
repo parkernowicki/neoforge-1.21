@@ -6,6 +6,7 @@ import com.parkern.firstmod.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
@@ -23,5 +24,17 @@ public class ModItemTagProvider extends ItemTagsProvider {
     protected void addTags(HolderLookup.Provider provider) {
         tag(ModTags.Items.TRANSFORMABLE_ITEMS)
                 .add(Items.SKELETON_SKULL);
+
+        tag(ItemTags.SWORDS)
+                .add(ModItems.TITANITE_SWORD.get());
+        tag(ItemTags.PICKAXES)
+                .add(ModItems.TITANITE_PICKAXE.get());
+        tag(ItemTags.SHOVELS)
+                .add(ModItems.TITANITE_SHOVEL.get());
+        tag(ItemTags.AXES)
+                .add(ModItems.TITANITE_AXE.get());
+        tag(ItemTags.HOES)
+                .add(ModItems.TITANITE_HOE.get());
+
     }
 }
