@@ -36,5 +36,10 @@ public class ModItemTagProvider extends ItemTagsProvider {
         tag(ItemTags.HOES)
                 .add(ModItems.TITANITE_HOE.get());
 
+        this.tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.TITANITE_HELMET.get())
+                .add(ModItems.TITANITE_CHESTPLATE.get())
+                .add(ModItems.TITANITE_LEGGINGS.get())
+                .add(ModItems.TITANITE_BOOTS.get());
     }
 }

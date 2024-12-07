@@ -15,6 +15,11 @@
 
   "item.firstmod.titanite_hammer": "Titanite Hammer",
 
+  "item.firstmod.titanite_helmet": "Titanite Helmet",
+  "item.firstmod.titanite_chestplate": "Titanite Chestplate",
+  "item.firstmod.titanite_leggings": "Titanite Leggings",
+  "item.firstmod.titanite_boots": "Titanite Boots",
+
   "block.firstmod.shale_block": "Shale",
   "block.firstmod.titanite_ore": "Titanite Ore",
   "block.firstmod.witherer": "Witherer",
