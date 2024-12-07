@@ -4,6 +4,7 @@ import com.parkern.firstmod.FirstMod;
 import com.parkern.firstmod.component.ModDataComponents;
 import com.parkern.firstmod.item.custom.HammerItem;
 import com.parkern.firstmod.item.custom.MagicWandItem;
+import com.parkern.firstmod.item.custom.ModArmorItem;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.*;
@@ -66,7 +67,7 @@ public class ModItems {
                     .attributes(PickaxeItem.createAttributes(ModToolTiers.TITANITE, 7f, -3.5f))));
 
     public static final DeferredItem<ArmorItem> TITANITE_HELMET = ITEMS.register("titanite_helmet",
-            () -> new ArmorItem(ModArmorMaterials.TITANITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+            () -> new ModArmorItem(ModArmorMaterials.TITANITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
                     new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(19))));
     public static final DeferredItem<ArmorItem> TITANITE_CHESTPLATE = ITEMS.register("titanite_chestplate",
                 () -> new ArmorItem(ModArmorMaterials.TITANITE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
