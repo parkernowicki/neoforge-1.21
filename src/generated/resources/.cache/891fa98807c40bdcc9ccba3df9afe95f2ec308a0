@@ -1,4 +1,4 @@
-// 1.21.1	2024-12-05T20:50:57.4368485	Item Models: firstmod
+// 1.21.1	2024-12-06T18:22:20.5773827	Item Models: firstmod
 807e6a538a382a7871abbd5018644279cb36c871 assets/firstmod/models/item/bread_pudding.json
 0d12f1143b099cbd28a22d7ae24470fd2466d0d2 assets/firstmod/models/item/duck_essence.json
 c442a9d640937eead696420cdcb866c76ab4123f assets/firstmod/models/item/magic_wand.json
@@ -11,6 +11,7 @@ cfc91eeab446ee96eb0f59860fdad0b8de970977 assets/firstmod/models/item/shale_door.
 f8470f2018b0ab3d3aadaa0e9fd23d06461c7013 assets/firstmod/models/item/shale_oil.json
 7cb39a9f27479d85bf857d51a81e4fa318d5135d assets/firstmod/models/item/shale_wall.json
 cb5ecd4d4b8a8e4398ed1f2efa4aeaaa9af7ddd5 assets/firstmod/models/item/titanite_axe.json
+616ba428aafbde51abd2b6d2d4ede5cbc651c244 assets/firstmod/models/item/titanite_hammer.json
 8c729787bcefb9cbc4230167af0664064c73cf7a assets/firstmod/models/item/titanite_hoe.json
 f18c505ce80674957dc57ced2e486c3de0ac338b assets/firstmod/models/item/titanite_pickaxe.json
 feb8a4578793b6f42b04c2b1c53c488e79bd8265 assets/firstmod/models/item/titanite_shovel.json

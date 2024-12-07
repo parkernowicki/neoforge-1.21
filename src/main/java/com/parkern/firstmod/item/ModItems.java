@@ -2,6 +2,7 @@ package com.parkern.firstmod.item;
 
 import com.parkern.firstmod.FirstMod;
 import com.parkern.firstmod.component.ModDataComponents;
+import com.parkern.firstmod.item.custom.HammerItem;
 import com.parkern.firstmod.item.custom.MagicWandItem;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
@@ -59,6 +60,11 @@ public class ModItems {
     public static final DeferredItem<HoeItem> TITANITE_HOE = ITEMS.register("titanite_hoe",
                 () -> new HoeItem(ModToolTiers.TITANITE, new Item.Properties()
                         .attributes(HoeItem.createAttributes(ModToolTiers.TITANITE, 0f, -3.0f))));
+
+    public static final DeferredItem<HammerItem> TITANITE_HAMMER = ITEMS.register("titanite_hammer",
+            () -> new HammerItem(ModToolTiers.TITANITE, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.TITANITE, 7f, -3.5f))));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

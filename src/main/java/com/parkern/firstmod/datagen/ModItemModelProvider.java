@@ -38,6 +38,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.TITANITE_SHOVEL);
         handheldItem(ModItems.TITANITE_AXE);
         handheldItem(ModItems.TITANITE_HOE);
+        handheldItem(ModItems.TITANITE_HAMMER);
     }
 
     public void buttonItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock) {

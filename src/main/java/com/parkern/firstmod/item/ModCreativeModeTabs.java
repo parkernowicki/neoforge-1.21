@@ -47,6 +47,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.TITANITE_AXE);
                         output.accept(ModItems.TITANITE_HOE);
 
+                        output.accept(ModItems.TITANITE_HAMMER);
                     }).build());
 
     public static void register(IEventBus eventBus) {
