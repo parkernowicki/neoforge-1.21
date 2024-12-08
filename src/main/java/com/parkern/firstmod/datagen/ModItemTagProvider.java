@@ -7,6 +7,7 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
 import net.minecraft.tags.ItemTags;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
@@ -41,5 +42,10 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.TITANITE_CHESTPLATE.get())
                 .add(ModItems.TITANITE_LEGGINGS.get())
                 .add(ModItems.TITANITE_BOOTS.get());
+
+        this.tag(ItemTags.TRIM_MATERIALS)
+                .add(ModItems.RAW_TITANITE.get());
+        this.tag(ItemTags.TRIM_TEMPLATES)
+                .add(ModItems.KAUPEN_SMITHING_TEMPLATE.get());
     }
 }

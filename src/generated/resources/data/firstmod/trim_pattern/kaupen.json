@@ -1,0 +1,8 @@
+{
+  "asset_id": "firstmod:kaupen",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.firstmod.kaupen"
+  },
+  "template_item": "firstmod:kaupen_armor_trim_smithing_template"
+}

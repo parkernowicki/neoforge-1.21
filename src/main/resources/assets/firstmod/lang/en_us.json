@@ -21,6 +21,7 @@
   "item.firstmod.titanite_boots": "Titanite Boots",
 
   "item.firstmod.titanite_horse_armor": "Titanite Horse Armor",
+  "item.firstmod.kaupen_armor_trim_smithing_template": "Kaupen Trim Template",
 
   "block.firstmod.shale_block": "Shale",
   "block.firstmod.titanite_ore": "Titanite Ore",
@@ -42,5 +43,8 @@
 
   "tooltip.firstmod.witherer.tooltip": "It emanates §0necrotic energies...§r",
   "tooltip.firstmod.magic_wand.shift_down": "Magical!",
-  "tooltip.firstmod.magic_wand": "Press §eShift§r for more info"
+  "tooltip.firstmod.magic_wand": "Press §eShift§r for more info",
+
+  "trim_pattern.firstmod.kaupen": "Kaupen Armor Trim",
+  "trim_material.firstmod.titanite": "Titanite Material"
 }

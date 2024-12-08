@@ -55,6 +55,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.TITANITE_BOOTS);
 
                         output.accept(ModItems.TITANITE_HORSE_ARMOR);
+                        output.accept(ModItems.KAUPEN_SMITHING_TEMPLATE);
                     }).build());
 
     public static void register(IEventBus eventBus) {

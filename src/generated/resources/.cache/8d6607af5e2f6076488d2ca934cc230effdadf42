@@ -1,4 +1,4 @@
-// 1.21.1	2024-12-07T15:54:56.9455042	Tags for minecraft:item mod id firstmod
+// 1.21.1	2024-12-07T18:42:59.8084706	Tags for minecraft:item mod id firstmod
 12f3abe6c6f2637a1660ac03c7ca4b58fd4e3f86 data/firstmod/tags/item/transformable_items.json
 7322c6130bd914f49d3c56a57893b5103ebccffd data/minecraft/tags/item/axes.json
 243cd240327f489503b077a5540e5189309e01d9 data/minecraft/tags/item/hoes.json
@@ -6,3 +6,5 @@
 dc9f38a73f19c393e0325ea330edc73f585b85b5 data/minecraft/tags/item/shovels.json
 c12c50ed3a7431486a15597a3b8af6262c53517f data/minecraft/tags/item/swords.json
 17a255a37352bc6b7b76643f485880d426136c1e data/minecraft/tags/item/trimmable_armor.json
+d93cd54512e5c2efebbd1632c622bec4bdc995f1 data/minecraft/tags/item/trim_materials.json
+3eda701d3a0ecca51a63423440a7f861a8d5b95a data/minecraft/tags/item/trim_templates.json

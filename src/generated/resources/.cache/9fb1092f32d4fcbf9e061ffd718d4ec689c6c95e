@@ -1,10 +1,11 @@
-// 1.21.1	2024-12-02T22:12:50.7459867	Recipes
+// 1.21.1	2024-12-07T18:42:59.8053471	Recipes
 cbd967d0dae568e26e7f5953e0651fc19fce146b data/firstmod/advancement/recipes/building_blocks/shale_slab.json
 931d5df9f06694f46f4262ca9389407dd87f608c data/firstmod/advancement/recipes/building_blocks/shale_stairs.json
 912d3af7aadb7687e540d34f823c2c5bdf5605e5 data/firstmod/advancement/recipes/building_blocks/shale_wall.json
 6c99dc0943928ee920ef50585aadffc4608bb561 data/firstmod/advancement/recipes/decorations/shale_fence.json
 60439d0f07f7ac4c0d490e65f81b9009e3e3bd36 data/firstmod/advancement/recipes/misc/duck_essence.json
 eddbd32e7f753aa5fc8d25f3c896a6be34970431 data/firstmod/advancement/recipes/misc/duck_essence_from_witherer.json
+d341317499ea68d74674c284802797190b022d63 data/firstmod/advancement/recipes/misc/kaupen.json
 f67b7c2796d53ba27609b241a9b2320c61f88de0 data/firstmod/advancement/recipes/misc/rubber_duck.json
 6aa7e85f82a81babbd8696aaaba6afdc74f7c3ef data/firstmod/advancement/recipes/misc/shale_oil_from_blasting_shale_block.json
 ec7a22f591adc5b03db2e80cd3ef632b93f6e7fd data/firstmod/advancement/recipes/misc/shale_oil_from_smelting_shale_block.json
@@ -15,6 +16,7 @@ ec7a22f591adc5b03db2e80cd3ef632b93f6e7fd data/firstmod/advancement/recipes/misc/
 b66b71f111014544f4301b7a7f67379478e4d2fe data/firstmod/advancement/recipes/redstone/shale_trapdoor.json
 1680fdbef18dd0ae733113f18dfb09f1b5e04914 data/firstmod/recipe/duck_essence.json
 0323d330a36fd6b8633e3ad4f5c15510f2c2af76 data/firstmod/recipe/duck_essence_from_witherer.json
+94826ad9a93c75157545cfa5f69ce91caa26da17 data/firstmod/recipe/kaupen.json
 4d30a75424c2675125fb3263d6c281294d9d24c9 data/firstmod/recipe/rubber_duck.json
 3fec745c5976b0a146ee3c75718eecdb7a48e541 data/firstmod/recipe/shale_button.json
 438381254b7b935d62b5cfa00d849cfc7ce6183c data/firstmod/recipe/shale_door.json
