@@ -66,6 +66,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.TITANITE_CHESTPLATE);
         trimmedArmorItem(ModItems.TITANITE_LEGGINGS);
         trimmedArmorItem(ModItems.TITANITE_BOOTS);
+
+        basicItem(ModItems.TITANITE_HORSE_ARMOR.get());
     }
 
     // Shoutout to El_Redstoniano for making this

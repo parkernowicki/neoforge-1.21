@@ -1,4 +1,4 @@
-// 1.21.1	2024-12-07T15:54:56.9425007	Item Models: firstmod
+// 1.21.1	2024-12-07T17:21:42.3662611	Item Models: firstmod
 807e6a538a382a7871abbd5018644279cb36c871 assets/firstmod/models/item/bread_pudding.json
 0d12f1143b099cbd28a22d7ae24470fd2466d0d2 assets/firstmod/models/item/duck_essence.json
 c442a9d640937eead696420cdcb866c76ab4123f assets/firstmod/models/item/magic_wand.json
@@ -46,6 +46,7 @@ b88fad617016ce2515ad41f3f27c1238e2a3bc8d assets/firstmod/models/item/titanite_he
 82a32767842d923120c4eaa5d3030ecb3e3930af assets/firstmod/models/item/titanite_helmet_quartz_trim.json
 3d83b638165c629a48d7063a21935cc7e5a32435 assets/firstmod/models/item/titanite_helmet_redstone_trim.json
 8c729787bcefb9cbc4230167af0664064c73cf7a assets/firstmod/models/item/titanite_hoe.json
+4b4e77e19d16a0aaab225a93402130f8f5563c8f assets/firstmod/models/item/titanite_horse_armor.json
 1329cffc38aa133dc8a2fc3661a3f8cb422c7739 assets/firstmod/models/item/titanite_leggings.json
 657a7ef953861961ba1b0e3ad5fc4cdf9607e19e assets/firstmod/models/item/titanite_leggings_amethyst_trim.json
 472715c2b472b4d75eb6851db1757e766983ddbc assets/firstmod/models/item/titanite_leggings_copper_trim.json

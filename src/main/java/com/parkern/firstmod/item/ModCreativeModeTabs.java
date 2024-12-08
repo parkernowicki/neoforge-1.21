@@ -53,6 +53,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.TITANITE_CHESTPLATE);
                         output.accept(ModItems.TITANITE_LEGGINGS);
                         output.accept(ModItems.TITANITE_BOOTS);
+
+                        output.accept(ModItems.TITANITE_HORSE_ARMOR);
                     }).build());
 
     public static void register(IEventBus eventBus) {
