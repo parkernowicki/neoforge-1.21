@@ -4,6 +4,7 @@ import com.parkern.firstmod.block.ModBlocks;
 import com.parkern.firstmod.component.ModDataComponents;
 import com.parkern.firstmod.item.ModCreativeModeTabs;
 import com.parkern.firstmod.item.ModItems;
+import com.parkern.firstmod.util.ModItemProperties;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -86,7 +87,7 @@ public class FirstMod {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            ModItemProperties.addCustomItemProperties();
         }
     }
 }
