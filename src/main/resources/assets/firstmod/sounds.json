@@ -1,0 +1,38 @@
+{
+  "magic_wand_use": {
+    "subtitle": "sounds.firstmod.magic_wand_use",
+    "sounds": [
+      "firstmod:magic_wand_use"
+    ]
+  },
+  "witherer_break": {
+    "subtitle": "sounds.firstmod.witherer_break",
+    "sounds": [
+      "firstmod:witherer_break"
+    ]
+  },
+  "witherer_step": {
+    "subtitle": "sounds.firstmod.witherer_step",
+    "sounds": [
+      "firstmod:witherer_step"
+    ]
+  },
+  "witherer_place": {
+    "subtitle": "sounds.firstmod.witherer_place",
+    "sounds": [
+      "firstmod:witherer_place"
+    ]
+  },
+  "witherer_hit": {
+    "subtitle": "sounds.firstmod.witherer_hit",
+    "sounds": [
+      "firstmod:witherer_hit"
+    ]
+  },
+  "witherer_fall": {
+    "subtitle": "sounds.firstmod.witherer_fall",
+    "sounds": [
+      "firstmod:witherer_fall"
+    ]
+  }
+}

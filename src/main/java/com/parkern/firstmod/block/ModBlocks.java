@@ -4,6 +4,7 @@ import com.parkern.firstmod.FirstMod;
 import com.parkern.firstmod.block.custom.BismuthLampBlock;
 import com.parkern.firstmod.block.custom.WithererBlock;
 import com.parkern.firstmod.item.ModItems;
+import com.parkern.firstmod.sound.ModSounds;
 import net.minecraft.network.chat.Component;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -33,7 +34,7 @@ public class ModBlocks {
                     BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     public static final DeferredBlock<Block> WITHERER = registerBlock("witherer",
-            () -> new WithererBlock(BlockBehaviour.Properties.of().strength(2f).noLootTable()) {
+            () -> new WithererBlock(BlockBehaviour.Properties.of().strength(2f).noLootTable().sound(ModSounds.WITHERER_SOUNDS)) {
                 @Override
                 public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
                     tooltipComponents.add(Component.translatable("tooltip.firstmod.witherer.tooltip"));

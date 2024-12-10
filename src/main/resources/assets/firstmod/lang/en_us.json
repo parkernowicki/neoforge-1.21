@@ -48,5 +48,8 @@
   "tooltip.firstmod.magic_wand": "Press §eShift§r for more info",
 
   "trim_pattern.firstmod.kaupen": "Kaupen Armor Trim",
-  "trim_material.firstmod.titanite": "Titanite Material"
+  "trim_material.firstmod.titanite": "Titanite Material",
+
+  "sounds.firstmod.magic_wand_use": "Magic wand casting",
+  "sounds.firstmod.witherer_break": "Witherer breaking"
 }

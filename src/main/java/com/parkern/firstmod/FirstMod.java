@@ -4,6 +4,7 @@ import com.parkern.firstmod.block.ModBlocks;
 import com.parkern.firstmod.component.ModDataComponents;
 import com.parkern.firstmod.item.ModCreativeModeTabs;
 import com.parkern.firstmod.item.ModItems;
+import com.parkern.firstmod.sound.ModSounds;
 import com.parkern.firstmod.util.ModItemProperties;
 import org.slf4j.Logger;
 
@@ -49,6 +50,7 @@ public class FirstMod {
         ModBlocks.register(modEventBus);
 
         ModDataComponents.register(modEventBus);
+        ModSounds.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
