@@ -45,7 +45,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.DUCK_ESSENCE.get());
         basicItem(ModItems.SHALE_OIL.get());
         basicItem(ModItems.RAW_TITANITE.get());
-        basicItem(ModItems.MAGIC_WAND.get());
+        // basicItem(ModItems.MAGIC_WAND.get());
         basicItem(ModItems.BREAD_PUDDING.get());
         basicItem(ModItems.PROPANE.get());
 
@@ -69,6 +69,8 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         basicItem(ModItems.TITANITE_HORSE_ARMOR.get());
         basicItem(ModItems.KAUPEN_SMITHING_TEMPLATE.get());
+
+        basicItem(ModItems.BAR_BRAWL_MUSIC_DISC.get());
     }
 
     // Shoutout to El_Redstoniano for making this
