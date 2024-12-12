@@ -28,6 +28,10 @@
   "item.firstmod.bar_brawl_music_disc": "Bar Brawl Music Disc",
   "item.firstmod.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
 
+  "item.minecraft.potion.effect.sticky_potion": "Sticky Potion",
+  "item.minecraft.splash_potion.effect.sticky_potion": "Sticky Splash Potion",
+  "item.minecraft.lingering_potion.effect.sticky_potion": "Sticky Lingering Potion",
+
   "block.firstmod.shale_block": "Shale",
   "block.firstmod.titanite_ore": "Titanite Ore",
   "block.firstmod.witherer": "Witherer",
