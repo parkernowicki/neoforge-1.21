@@ -46,6 +46,8 @@
 
   "creativetab.firstmod.firstmod_items": "First Mod Items",
 
+  "effect.firstmod.sticky": "Sticky",
+
   "tooltip.firstmod.witherer.tooltip": "It emanates §0necrotic energies...§r",
   "tooltip.firstmod.magic_wand.shift_down": "Magical!",
   "tooltip.firstmod.magic_wand": "Press §eShift§r for more info",
