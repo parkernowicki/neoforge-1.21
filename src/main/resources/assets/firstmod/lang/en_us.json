@@ -5,6 +5,7 @@
   "item.firstmod.raw_titanite": "Raw Titanite",
   "item.firstmod.magic_wand": "Magic Wand",
   "item.firstmod.bread_pudding": "Bread Pudding",
+  "item.firstmod.radish": "Radish",
   "item.firstmod.propane": "Propane",
 
   "item.firstmod.titanite_sword": "Titanite Sword",
@@ -32,6 +33,8 @@
   "item.minecraft.splash_potion.effect.sticky_potion": "Sticky Splash Potion",
   "item.minecraft.lingering_potion.effect.sticky_potion": "Sticky Lingering Potion",
 
+  "item.firstmod.radish_seeds": "Radish Seeds",
+
   "block.firstmod.shale_block": "Shale",
   "block.firstmod.titanite_ore": "Titanite Ore",
   "block.firstmod.witherer": "Witherer",
@@ -47,6 +50,8 @@
   "block.firstmod.shale_trapdoor": "Shale Trapdoor",
 
   "block.firstmod.bismuth_lamp": "Bismuth Lamp",
+
+  "block.firstmod.radish_crop": "Radish Crop",
 
   "creativetab.firstmod.firstmod_items": "First Mod Items",
 

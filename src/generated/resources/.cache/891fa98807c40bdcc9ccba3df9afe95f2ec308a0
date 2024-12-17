@@ -1,9 +1,11 @@
-// 1.21.1	2024-12-11T14:37:27.2742969	Item Models: firstmod
+// 1.21.1	2024-12-16T19:39:25.1110846	Item Models: firstmod
 1683a99891f1abafd5bf4ed18bad6d6877d66ff8 assets/firstmod/models/item/bar_brawl_music_disc.json
 807e6a538a382a7871abbd5018644279cb36c871 assets/firstmod/models/item/bread_pudding.json
 0d12f1143b099cbd28a22d7ae24470fd2466d0d2 assets/firstmod/models/item/duck_essence.json
 0ba21db6f3146479753dfa7f2bcb678a9b3fe83b assets/firstmod/models/item/kaupen_armor_trim_smithing_template.json
 adb564b7ddc56c976af19c266db0e1303dc97bc4 assets/firstmod/models/item/propane.json
+fe46532a549c25732c4686a5c3ff4447a244361a assets/firstmod/models/item/radish.json
+0b3e84e3e4eb9afe9cb6cb24a616eda03534043b assets/firstmod/models/item/radish_seeds.json
 6269f5698786cfa5c47652837a840504b52c3243 assets/firstmod/models/item/raw_titanite.json
 b9b4016c420216607b576524d99a7386e8e6f5b4 assets/firstmod/models/item/rubber_duck.json
 44ee0f4e3158c203b73b3c2954bb4c8efaa2262f assets/firstmod/models/item/shale_button.json

@@ -1,5 +1,6 @@
-// 1.21.1	2024-12-03T23:47:56.4115066	Block States: firstmod
+// 1.21.1	2024-12-16T19:31:04.9013998	Block States: firstmod
 b953da76e413facfbadb2d4fce0e0e6d8c0c9df7 assets/firstmod/blockstates/bismuth_lamp.json
+c634d9a587a2a73ebc294d2dc674efcca6402b31 assets/firstmod/blockstates/radish_crop.json
 039b66226440296d9cf67ae5bea5fde7b24aaa9e assets/firstmod/blockstates/shale_block.json
 ee602e4f1e45adb71bf76cb8a3c36215b827afe8 assets/firstmod/blockstates/shale_button.json
 34f6a3568c820a9a75795b41bc65d3ab42315ca3 assets/firstmod/blockstates/shale_door.json
@@ -14,6 +15,10 @@ e0b4d3f93a56557d9f5aa2b401ae1906fe6ee06e assets/firstmod/blockstates/shale_trapd
 4907f8c27a84f67f9a81b38f9eb3572cd8824657 assets/firstmod/blockstates/witherer.json
 c2c998f82da4e041042ca634de352b391c09139c assets/firstmod/models/block/bismuth_lamp_off.json
 5cba9e4a20bf4ea83ca3a860878de8ef3e567b7b assets/firstmod/models/block/bismuth_lamp_on.json
+f2076740c0281431d646f648bd851a2166b89a52 assets/firstmod/models/block/radish_crop_stage0.json
+f615b5f2b89f1724236fb1afd71cd11860d13ba4 assets/firstmod/models/block/radish_crop_stage1.json
+fb9b3ad5b65ad5ffd7bfca1bbf6c0ac8fae215e3 assets/firstmod/models/block/radish_crop_stage2.json
+c60c27e9ee11014d86cc0c49e0ad351c1b7f6bf4 assets/firstmod/models/block/radish_crop_stage3.json
 f3afe7bee447044ec5cfef3e277791097f49d717 assets/firstmod/models/block/shale_block.json
 8d3d419bd11ea9a2d2c643afc66ef562357a6ec2 assets/firstmod/models/block/shale_button.json
 dde95ecf884ea714ce134868ecf0a5f1e91c32a9 assets/firstmod/models/block/shale_button_pressed.json
