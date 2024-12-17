@@ -59,6 +59,8 @@
   "painting.firstmod.saw_them.title": "Saw Them",
   "painting.firstmod.saw_them.author": "NanoAttack",
 
+  "enchantment.firstmod.bolt": "Bolt",
+
   "tooltip.firstmod.witherer.tooltip": "It emanates §0necrotic energies...§r",
   "tooltip.firstmod.magic_wand.shift_down": "Magical!",
   "tooltip.firstmod.magic_wand": "Press §eShift§r for more info",
