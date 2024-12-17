@@ -63,6 +63,8 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModItems.RADISH);
                         output.accept(ModItems.RADISH_SEEDS);
+
+                        output.accept(ModItems.GOJI_BERRIES);
                     }).build());
 
     public static void register(IEventBus eventBus) {

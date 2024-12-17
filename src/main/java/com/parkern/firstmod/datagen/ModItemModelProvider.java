@@ -74,6 +74,8 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         basicItem(ModItems.RADISH.get());
         basicItem(ModItems.RADISH_SEEDS.get());
+
+        basicItem(ModItems.GOJI_BERRIES.get());
     }
 
     // Shoutout to El_Redstoniano for making this

@@ -2,6 +2,7 @@ package com.parkern.firstmod.block;
 
 import com.parkern.firstmod.FirstMod;
 import com.parkern.firstmod.block.custom.BismuthLampBlock;
+import com.parkern.firstmod.block.custom.GojiBerryBushBlock;
 import com.parkern.firstmod.block.custom.RadishCropBlock;
 import com.parkern.firstmod.block.custom.WithererBlock;
 import com.parkern.firstmod.item.ModItems;
@@ -72,6 +73,9 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> RADISH_CROP = BLOCKS.register("radish_crop",
             () -> new RadishCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BEETROOTS)));
+
+    public static final DeferredBlock<Block> GOJI_BERRY_BUSH = BLOCKS.register("goji_berry_bush",
+            () -> new GojiBerryBushBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SWEET_BERRY_BUSH)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

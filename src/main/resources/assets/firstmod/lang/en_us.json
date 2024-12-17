@@ -34,6 +34,7 @@
   "item.minecraft.lingering_potion.effect.sticky_potion": "Sticky Lingering Potion",
 
   "item.firstmod.radish_seeds": "Radish Seeds",
+  "item.firstmod.goji_berries": "Goji Berries",
 
   "block.firstmod.shale_block": "Shale",
   "block.firstmod.titanite_ore": "Titanite Ore",
@@ -52,6 +53,7 @@
   "block.firstmod.bismuth_lamp": "Bismuth Lamp",
 
   "block.firstmod.radish_crop": "Radish Crop",
+  "block.firstmod.goji_berry_bush": "Goji Berry Bush",
 
   "creativetab.firstmod.firstmod_items": "First Mod Items",
 
