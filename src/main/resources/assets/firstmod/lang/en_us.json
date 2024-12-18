@@ -38,6 +38,8 @@
 
   "block.firstmod.shale_block": "Shale",
   "block.firstmod.titanite_ore": "Titanite Ore",
+  "block.firstmod.nether_titanite_ore": "Nether Titanite Ore",
+  "block.firstmod.end_titanite_ore": "End Titanite Ore",
   "block.firstmod.witherer": "Witherer",
 
   "block.firstmod.shale_stairs": "Shale Stairs",

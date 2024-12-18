@@ -1,8 +1,8 @@
-// 1.21.1	2024-12-05T20:50:57.4358481	Tags for minecraft:block mod id firstmod
+// 1.21.1	2024-12-17T16:20:09.5348442	Tags for minecraft:block mod id firstmod
 f0d0a2d50d18fa02a1cf0d3612c12dbd2f003c0e data/firstmod/tags/block/incorrect_for_titanite_tool.json
 32b13946c4cd1f944b029659ccce5fcb2adad4ff data/firstmod/tags/block/needs_titanite_tool.json
 e8032fa7cb0baafaccdb3b3d6250a0b43461f0a4 data/minecraft/tags/block/fences.json
 1a45a2250b2028cb331f2c5a66a259011e86ce43 data/minecraft/tags/block/fence_gates.json
-ec28c56408218b1b3b56f10f0505af54259a6f09 data/minecraft/tags/block/mineable/pickaxe.json
-a4b8ab7540c4506ffbe2cccda5ab4be469b368bd data/minecraft/tags/block/needs_iron_tool.json
+8c313bc4dca7ff05b27682bc27e8bf92e88e3588 data/minecraft/tags/block/mineable/pickaxe.json
+7e5d4c29f7f2968fa99f38e568f18c9a8bf837e0 data/minecraft/tags/block/needs_iron_tool.json
 4c08eaeb9b417095e62d5d0f480200936cd101ab data/minecraft/tags/block/walls.json

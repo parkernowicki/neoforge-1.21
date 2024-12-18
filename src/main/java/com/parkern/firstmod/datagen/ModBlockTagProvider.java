@@ -22,10 +22,14 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.SHALE_BLOCK.get())
                 .add(ModBlocks.TITANITE_ORE.get())
+                .add(ModBlocks.NETHER_TITANITE_ORE.get())
+                .add(ModBlocks.END_TITANITE_ORE.get())
                 .add(ModBlocks.WITHERER.get());
 
         tag(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.TITANITE_ORE.get());
+                .add(ModBlocks.TITANITE_ORE.get())
+                .add(ModBlocks.NETHER_TITANITE_ORE.get())
+                .add(ModBlocks.END_TITANITE_ORE.get());
 
         tag(BlockTags.FENCES).add(ModBlocks.SHALE_FENCE.get());
         tag(BlockTags.FENCE_GATES).add(ModBlocks.SHALE_FENCE_GATE.get());

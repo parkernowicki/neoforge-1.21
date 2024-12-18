@@ -27,6 +27,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.SHALE_BLOCK);
         blockWithItem(ModBlocks.TITANITE_ORE);
+        blockWithItem(ModBlocks.NETHER_TITANITE_ORE);
+        blockWithItem(ModBlocks.END_TITANITE_ORE);
 
         blockWithItem(ModBlocks.WITHERER);
 

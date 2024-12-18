@@ -1,6 +1,8 @@
-// 1.21.1	2024-12-16T20:45:49.7135112	Loot Tables
+// 1.21.1	2024-12-17T16:13:53.0387815	Loot Tables
 e19a851a950898b072c0254e5d2fe1752cf9a67f data/firstmod/loot_table/blocks/bismuth_lamp.json
+c44f05af00dc9c185f58931cf019e9f13932d5aa data/firstmod/loot_table/blocks/end_titanite_ore.json
 79c3fd7509d9bf8ec0e9a6076ec3942492868d95 data/firstmod/loot_table/blocks/goji_berry_bush.json
+8489cc7980c002bcab91ec947f730235aa02f429 data/firstmod/loot_table/blocks/nether_titanite_ore.json
 c52e82d93e3cd243c438829a83e1171b3c80619f data/firstmod/loot_table/blocks/radish_crop.json
 6e09fa3d4550f3784ba23e73cb82f0def10c6099 data/firstmod/loot_table/blocks/shale_block.json
 0faa3afa13373345656cba87b197076aa4e03da8 data/firstmod/loot_table/blocks/shale_button.json

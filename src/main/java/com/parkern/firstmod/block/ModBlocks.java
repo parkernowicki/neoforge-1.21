@@ -34,6 +34,12 @@ public class ModBlocks {
     public static final DeferredBlock<Block> TITANITE_ORE = registerBlock("titanite_ore",
             () -> new DropExperienceBlock(UniformInt.of(2, 4),
                     BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final DeferredBlock<Block> NETHER_TITANITE_ORE = registerBlock("nether_titanite_ore",
+            () -> new DropExperienceBlock(UniformInt.of(2, 4),
+                    BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.NETHERRACK)));
+    public static final DeferredBlock<Block> END_TITANITE_ORE = registerBlock("end_titanite_ore",
+            () -> new DropExperienceBlock(UniformInt.of(2, 4),
+                    BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     public static final DeferredBlock<Block> WITHERER = registerBlock("witherer",
             () -> new WithererBlock(BlockBehaviour.Properties.of().strength(2f).noLootTable().sound(ModSounds.WITHERER_SOUNDS)) {

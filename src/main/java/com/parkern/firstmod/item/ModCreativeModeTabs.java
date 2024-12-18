@@ -24,6 +24,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.SHALE_BLOCK);
                         output.accept(ModItems.SHALE_OIL);
                         output.accept(ModBlocks.TITANITE_ORE);
+                        output.accept(ModBlocks.NETHER_TITANITE_ORE);
+                        output.accept(ModBlocks.END_TITANITE_ORE);
                         output.accept(ModItems.RAW_TITANITE);
                         output.accept(ModItems.MAGIC_WAND);
                         output.accept(ModBlocks.WITHERER);

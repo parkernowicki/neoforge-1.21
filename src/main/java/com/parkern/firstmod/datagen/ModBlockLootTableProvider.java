@@ -38,6 +38,10 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
                 //block -> createOreDrop(ModBlocks.TITANITE_ORE.get(), ModItems.RAW_TITANITE.get()));
         add(ModBlocks.TITANITE_ORE.get(),
                 block -> createMultipleOreDrops(ModBlocks.TITANITE_ORE.get(), ModItems.RAW_TITANITE.get(), 2, 5));
+        add(ModBlocks.NETHER_TITANITE_ORE.get(),
+                block -> createMultipleOreDrops(ModBlocks.NETHER_TITANITE_ORE.get(), ModItems.RAW_TITANITE.get(), 2, 5));
+        add(ModBlocks.END_TITANITE_ORE.get(),
+                block -> createMultipleOreDrops(ModBlocks.END_TITANITE_ORE.get(), ModItems.RAW_TITANITE.get(), 2, 5));
 
         dropSelf(ModBlocks.SHALE_STAIRS.get());
         add(ModBlocks.SHALE_SLAB.get(),

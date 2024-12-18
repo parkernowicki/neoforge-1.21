@@ -1,6 +1,8 @@
-// 1.21.1	2024-12-16T20:45:49.7155122	Block States: firstmod
+// 1.21.1	2024-12-17T16:13:53.0407823	Block States: firstmod
 b953da76e413facfbadb2d4fce0e0e6d8c0c9df7 assets/firstmod/blockstates/bismuth_lamp.json
+1d9b98aa42ee1829aa53fc2033967e4b242a6c92 assets/firstmod/blockstates/end_titanite_ore.json
 0b56d52acdb21a17ab3216104aa3a166a0b92f3b assets/firstmod/blockstates/goji_berry_bush.json
+7621c1f15d5a644bc6fe7bf4997970cb5d863392 assets/firstmod/blockstates/nether_titanite_ore.json
 c634d9a587a2a73ebc294d2dc674efcca6402b31 assets/firstmod/blockstates/radish_crop.json
 039b66226440296d9cf67ae5bea5fde7b24aaa9e assets/firstmod/blockstates/shale_block.json
 ee602e4f1e45adb71bf76cb8a3c36215b827afe8 assets/firstmod/blockstates/shale_button.json
@@ -16,10 +18,12 @@ e0b4d3f93a56557d9f5aa2b401ae1906fe6ee06e assets/firstmod/blockstates/shale_trapd
 4907f8c27a84f67f9a81b38f9eb3572cd8824657 assets/firstmod/blockstates/witherer.json
 c2c998f82da4e041042ca634de352b391c09139c assets/firstmod/models/block/bismuth_lamp_off.json
 5cba9e4a20bf4ea83ca3a860878de8ef3e567b7b assets/firstmod/models/block/bismuth_lamp_on.json
+ae17011941e5428eb01807608ce1f8931d58eedf assets/firstmod/models/block/end_titanite_ore.json
 8d0b6e5ee47d59e45d289e33dba8b10d49d417ed assets/firstmod/models/block/goji_berry_bush_stage0.json
 e38a0c6a2f384dedd3329a17159c471431d5e45f assets/firstmod/models/block/goji_berry_bush_stage1.json
 8c217bee129a04ad6e6a03b824727f5eb13ccd8f assets/firstmod/models/block/goji_berry_bush_stage2.json
 394165505c2807c2b58f1967c7a41681af6e634d assets/firstmod/models/block/goji_berry_bush_stage3.json
+6685a4ae341598d117daf7b73c0fe494d6612a77 assets/firstmod/models/block/nether_titanite_ore.json
 f2076740c0281431d646f648bd851a2166b89a52 assets/firstmod/models/block/radish_crop_stage0.json
 f615b5f2b89f1724236fb1afd71cd11860d13ba4 assets/firstmod/models/block/radish_crop_stage1.json
 fb9b3ad5b65ad5ffd7bfca1bbf6c0ac8fae215e3 assets/firstmod/models/block/radish_crop_stage2.json
@@ -57,6 +61,8 @@ a4f9b058ad57b7293ef8ac14d13ae245e364dc13 assets/firstmod/models/block/shale_wall
 2938184fb217d3d4bbf526c77c6a0ef1a7faaa74 assets/firstmod/models/block/titanite_ore.json
 0807375cf8254facf30c50b2f7a91f1f491f1ce2 assets/firstmod/models/block/witherer.json
 5d1bcbbb36b1a39b9dcdba3982a128245469fa8f assets/firstmod/models/item/bismuth_lamp.json
+2b19c5fb3bae5e7c4c1f4c0d406a8ce30b14187a assets/firstmod/models/item/end_titanite_ore.json
+53c489178f6d7e260a47796ec3796272c2da874c assets/firstmod/models/item/nether_titanite_ore.json
 71159b1cf4f960147efbae906e8afdaecafc63f5 assets/firstmod/models/item/shale_block.json
 e9ea26ab2bd44d17846976515e3f8efb4c066e60 assets/firstmod/models/item/shale_fence_gate.json
 f3c8df6b72dc76bb2b168f37cbc74fae793fd5ea assets/firstmod/models/item/shale_pressure_plate.json

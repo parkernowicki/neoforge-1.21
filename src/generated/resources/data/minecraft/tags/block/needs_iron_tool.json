@@ -1,5 +1,7 @@
 {
   "values": [
-    "firstmod:titanite_ore"
+    "firstmod:titanite_ore",
+    "firstmod:nether_titanite_ore",
+    "firstmod:end_titanite_ore"
   ]
 }

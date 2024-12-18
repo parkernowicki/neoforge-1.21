@@ -2,6 +2,8 @@
   "values": [
     "firstmod:shale_block",
     "firstmod:titanite_ore",
+    "firstmod:nether_titanite_ore",
+    "firstmod:end_titanite_ore",
     "firstmod:witherer"
   ]
 }
