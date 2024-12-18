@@ -1,5 +1,10 @@
-// 1.21.1	2024-12-17T16:13:53.0387815	Loot Tables
+// 1.21.1	2024-12-17T20:12:08.3538491	Loot Tables
 e19a851a950898b072c0254e5d2fe1752cf9a67f data/firstmod/loot_table/blocks/bismuth_lamp.json
+958a1b6ef8f54179fd839500692abd773b6eaf43 data/firstmod/loot_table/blocks/bloodwood_leaves.json
+4a723ab12273ab3347969580437a0c3fbafce4cf data/firstmod/loot_table/blocks/bloodwood_log.json
+ec3aedd0ea46688206042454143d83badcb8a899 data/firstmod/loot_table/blocks/bloodwood_planks.json
+358a4126817525446653898590f9fefc75a95188 data/firstmod/loot_table/blocks/bloodwood_sapling.json
+e1c46e75720d354c9e726470fd96aabb7b4bbd6a data/firstmod/loot_table/blocks/bloodwood_wood.json
 c44f05af00dc9c185f58931cf019e9f13932d5aa data/firstmod/loot_table/blocks/end_titanite_ore.json
 79c3fd7509d9bf8ec0e9a6076ec3942492868d95 data/firstmod/loot_table/blocks/goji_berry_bush.json
 8489cc7980c002bcab91ec947f730235aa02f429 data/firstmod/loot_table/blocks/nether_titanite_ore.json
@@ -14,4 +19,6 @@ b38a0b54eed248dbd9be425864463f109c4e739a data/firstmod/loot_table/blocks/shale_f
 60eadddc8632116d4829418905b2467ef2167d98 data/firstmod/loot_table/blocks/shale_stairs.json
 0be40901b6e90b1bf890ec17733caa63e503c8d7 data/firstmod/loot_table/blocks/shale_trapdoor.json
 bf3f29afeaaa455abba2e9a0e0ef9cd242806ca0 data/firstmod/loot_table/blocks/shale_wall.json
+27afa5699ae80b3c2b673cc798e10571f579a1fa data/firstmod/loot_table/blocks/stripped_bloodwood_log.json
+c597b94882a1a3d7f8a6d8f6523cd5bdccc9696b data/firstmod/loot_table/blocks/stripped_bloodwood_wood.json
 4b679114976e9ecf39e0d9d3d0a6a839b0b5a4f7 data/firstmod/loot_table/blocks/titanite_ore.json

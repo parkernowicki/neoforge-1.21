@@ -1,11 +1,13 @@
 package com.parkern.firstmod.datagen;
 
 import com.parkern.firstmod.FirstMod;
+import com.parkern.firstmod.block.ModBlocks;
 import com.parkern.firstmod.item.ModItems;
 import com.parkern.firstmod.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
+import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
@@ -47,5 +49,13 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.RAW_TITANITE.get());
         this.tag(ItemTags.TRIM_TEMPLATES)
                 .add(ModItems.KAUPEN_SMITHING_TEMPLATE.get());
+
+        this.tag(ItemTags.LOGS_THAT_BURN)
+                .add(ModBlocks.BLOODWOOD_LOG.get().asItem())
+                .add(ModBlocks.BLOODWOOD_WOOD.get().asItem())
+                .add(ModBlocks.STRIPPED_BLOODWOOD_LOG.get().asItem())
+                .add(ModBlocks.STRIPPED_BLOODWOOD_WOOD.get().asItem());
+        this.tag(ItemTags.PLANKS)
+                .add(ModBlocks.BLOODWOOD_PLANKS.asItem());
     }
 }

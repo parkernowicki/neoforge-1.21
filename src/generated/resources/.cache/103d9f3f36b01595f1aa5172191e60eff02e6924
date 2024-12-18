@@ -1,10 +1,11 @@
-// 1.21.1	2024-12-17T17:41:53.0835874	Registries
+// 1.21.1	2024-12-17T20:12:08.3548507	Registries
 c4ef0127a7ff95f431e83e92f0ec601e9d3e2679 data/firstmod/enchantment/bolt.json
 c1278b086762f4823ccc20cdd8a0bb960716f675 data/firstmod/neoforge/biome_modifier/add_end_titanite_ore.json
 2f18b9a797f486d06d4fa4a56be6f836154efa97 data/firstmod/neoforge/biome_modifier/add_nether_titanite_ore.json
 5cbf8205b387d567ca8cbe50f41f41957c0e9851 data/firstmod/neoforge/biome_modifier/add_titanite_ore.json
 85532f8f823bc29b74f4b2f3d6b57f7621679984 data/firstmod/trim_material/titanite.json
 a3c67cbcf68801bd961bed410a6a7c251b3abc94 data/firstmod/trim_pattern/kaupen.json
+b0960dcd78b55845f14a4d921718ca5afbf00e90 data/firstmod/worldgen/configured_feature/bloodwood.json
 7da46ac64d14430c48cc11395cb847f6b39754d7 data/firstmod/worldgen/configured_feature/end_titanite_ore.json
 5b7af4ab4c8708354dab44ba437ffbe1483bdea5 data/firstmod/worldgen/configured_feature/nether_titanite_ore.json
 11ba5f0a83783079da487979736049a7a095bc31 data/firstmod/worldgen/configured_feature/titanite_ore.json
