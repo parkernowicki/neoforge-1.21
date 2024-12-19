@@ -3,6 +3,7 @@ package com.parkern.firstmod.item;
 import com.parkern.firstmod.FirstMod;
 import com.parkern.firstmod.block.ModBlocks;
 import com.parkern.firstmod.component.ModDataComponents;
+import com.parkern.firstmod.entity.ModEntities;
 import com.parkern.firstmod.item.custom.HammerItem;
 import com.parkern.firstmod.item.custom.MagicWandItem;
 import com.parkern.firstmod.item.custom.ModArmorItem;
@@ -12,6 +13,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.common.DeferredSpawnEggItem;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
@@ -102,6 +104,10 @@ public class ModItems {
 
     public static final DeferredItem<Item> GOJI_BERRIES = ITEMS.register("goji_berries",
             () -> new ItemNameBlockItem(ModBlocks.GOJI_BERRY_BUSH.get(), new Item.Properties().food(ModFoodProperties.GOJI_BERRIES)));
+
+    public static final DeferredItem<Item> GECKO_SPAWN_EGG = ITEMS.register("gecko_spawn_egg",
+            () -> new DeferredSpawnEggItem(ModEntities.GECKO, 0x31afaf, 0xffac00,
+                    new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

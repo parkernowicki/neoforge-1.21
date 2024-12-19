@@ -36,6 +36,8 @@
   "item.firstmod.radish_seeds": "Radish Seeds",
   "item.firstmod.goji_berries": "Goji Berries",
 
+  "item.firstmod.gecko_spawn_egg": "Gecko Spawn Egg",
+
   "block.firstmod.shale_block": "Shale",
   "block.firstmod.titanite_ore": "Titanite Ore",
   "block.firstmod.nether_titanite_ore": "Nether Titanite Ore",
@@ -86,5 +88,7 @@
   "trim_material.firstmod.titanite": "Titanite Material",
 
   "sounds.firstmod.magic_wand_use": "Magic wand casting",
-  "sounds.firstmod.witherer_break": "Witherer breaking"
+  "sounds.firstmod.witherer_break": "Witherer breaking",
+
+  "entity.mccourse.gecko": "Gecko"
 }

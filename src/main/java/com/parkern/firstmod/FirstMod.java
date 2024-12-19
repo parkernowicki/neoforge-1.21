@@ -4,11 +4,14 @@ import com.parkern.firstmod.block.ModBlocks;
 import com.parkern.firstmod.component.ModDataComponents;
 import com.parkern.firstmod.effect.ModEffects;
 import com.parkern.firstmod.enchantment.ModEnchantmentEffects;
+import com.parkern.firstmod.entity.ModEntities;
+import com.parkern.firstmod.entity.client.GeckoRenderer;
 import com.parkern.firstmod.item.ModCreativeModeTabs;
 import com.parkern.firstmod.item.ModItems;
 import com.parkern.firstmod.potion.ModPotions;
 import com.parkern.firstmod.sound.ModSounds;
 import com.parkern.firstmod.util.ModItemProperties;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -59,6 +62,7 @@ public class FirstMod {
         ModPotions.register(modEventBus);
 
         ModEnchantmentEffects.register(modEventBus);
+        ModEntities.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -98,6 +102,8 @@ public class FirstMod {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
             ModItemProperties.addCustomItemProperties();
+
+            EntityRenderers.register(ModEntities.GECKO.get(), GeckoRenderer::new);
         }
     }
 }
