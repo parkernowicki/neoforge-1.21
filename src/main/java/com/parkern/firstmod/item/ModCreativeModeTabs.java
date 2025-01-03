@@ -77,6 +77,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.GOJI_BERRIES);
 
                         output.accept(ModItems.GECKO_SPAWN_EGG);
+                        output.accept(ModItems.GROUSE_SPAWN_EGG);
                     }).build());
 
     public static void register(IEventBus eventBus) {

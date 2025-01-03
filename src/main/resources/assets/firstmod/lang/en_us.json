@@ -37,6 +37,7 @@
   "item.firstmod.goji_berries": "Goji Berries",
 
   "item.firstmod.gecko_spawn_egg": "Gecko Spawn Egg",
+  "item.firstmod.grouse_spawn_egg": "Grouse Spawn Egg",
 
   "block.firstmod.shale_block": "Shale",
   "block.firstmod.titanite_ore": "Titanite Ore",
@@ -90,5 +91,6 @@
   "sounds.firstmod.magic_wand_use": "Magic wand casting",
   "sounds.firstmod.witherer_break": "Witherer breaking",
 
-  "entity.mccourse.gecko": "Gecko"
+  "entity.mccourse.gecko": "Gecko",
+  "entity.mccourse.grouse": "Grouse"
 }
