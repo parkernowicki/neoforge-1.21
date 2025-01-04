@@ -39,6 +39,8 @@
   "item.firstmod.gecko_spawn_egg": "Gecko Spawn Egg",
   "item.firstmod.grouse_spawn_egg": "Grouse Spawn Egg",
 
+  "item.firstmod.tomahawk": "Tomahawk",
+
   "block.firstmod.shale_block": "Shale",
   "block.firstmod.titanite_ore": "Titanite Ore",
   "block.firstmod.nether_titanite_ore": "Nether Titanite Ore",
@@ -92,5 +94,6 @@
   "sounds.firstmod.witherer_break": "Witherer breaking",
 
   "entity.mccourse.gecko": "Gecko",
-  "entity.mccourse.grouse": "Grouse"
+  "entity.mccourse.grouse": "Grouse",
+  "entity.mccourse.tomahawk": "Tomahawk"
 }

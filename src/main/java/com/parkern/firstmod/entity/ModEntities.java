@@ -3,6 +3,7 @@ package com.parkern.firstmod.entity;
 import com.parkern.firstmod.FirstMod;
 import com.parkern.firstmod.entity.custom.GeckoEntity;
 import com.parkern.firstmod.entity.custom.GrouseEntity;
+import com.parkern.firstmod.entity.custom.TomahawkProjectileEntity;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
@@ -21,6 +22,9 @@ public class ModEntities {
     public static final Supplier<EntityType<GrouseEntity>> GROUSE =
             ENTITY_TYPES.register("grouse", () -> EntityType.Builder.of(GrouseEntity::new, MobCategory.CREATURE)
                     .sized(0.5f, 0.6f).build("grouse"));
+    public static final Supplier<EntityType<TomahawkProjectileEntity>> TOMAHAWK =
+            ENTITY_TYPES.register("tomahawk", () -> EntityType.Builder.<TomahawkProjectileEntity>of(TomahawkProjectileEntity::new, MobCategory.MISC)
+                    .sized(0.5f, 1.5f).build("tomahawk"));
 
     public static void register(IEventBus eventBus) {
         ENTITY_TYPES.register(eventBus);

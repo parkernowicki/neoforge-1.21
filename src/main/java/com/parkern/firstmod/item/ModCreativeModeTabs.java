@@ -78,6 +78,8 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModItems.GECKO_SPAWN_EGG);
                         output.accept(ModItems.GROUSE_SPAWN_EGG);
+
+                        output.accept(ModItems.TOMAHAWK);
                     }).build());
 
     public static void register(IEventBus eventBus) {

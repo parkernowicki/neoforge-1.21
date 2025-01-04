@@ -4,6 +4,7 @@ import com.parkern.firstmod.FirstMod;
 import com.parkern.firstmod.entity.ModEntities;
 import com.parkern.firstmod.entity.client.GeckoModel;
 import com.parkern.firstmod.entity.client.GrouseModel;
+import com.parkern.firstmod.entity.client.TomahawkProjectileModel;
 import com.parkern.firstmod.entity.custom.GeckoEntity;
 import com.parkern.firstmod.entity.custom.GrouseEntity;
 import net.minecraft.world.entity.SpawnPlacementTypes;
@@ -21,6 +22,7 @@ public class ModEventBusEvents {
     public static void registerLayers(EntityRenderersEvent.RegisterLayerDefinitions event) {
         event.registerLayerDefinition(GeckoModel.LAYER_LOCATION, GeckoModel::createBodyLayer);
         event.registerLayerDefinition(GrouseModel.LAYER_LOCATION, GrouseModel::createBodyLayer);
+        event.registerLayerDefinition(TomahawkProjectileModel.LAYER_LOCATION, TomahawkProjectileModel::createBodyLayer);
     }
 
     @SubscribeEvent

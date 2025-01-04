@@ -7,6 +7,7 @@ import com.parkern.firstmod.enchantment.ModEnchantmentEffects;
 import com.parkern.firstmod.entity.ModEntities;
 import com.parkern.firstmod.entity.client.GeckoRenderer;
 import com.parkern.firstmod.entity.client.GrouseRenderer;
+import com.parkern.firstmod.entity.client.TomahawkProjectileRenderer;
 import com.parkern.firstmod.item.ModCreativeModeTabs;
 import com.parkern.firstmod.item.ModItems;
 import com.parkern.firstmod.potion.ModPotions;
@@ -106,6 +107,7 @@ public class FirstMod {
 
             EntityRenderers.register(ModEntities.GECKO.get(), GeckoRenderer::new);
             EntityRenderers.register(ModEntities.GROUSE.get(), GrouseRenderer::new);
+            EntityRenderers.register(ModEntities.TOMAHAWK.get(), TomahawkProjectileRenderer::new);
         }
     }
 }

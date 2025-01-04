@@ -7,6 +7,7 @@ import com.parkern.firstmod.entity.ModEntities;
 import com.parkern.firstmod.item.custom.HammerItem;
 import com.parkern.firstmod.item.custom.MagicWandItem;
 import com.parkern.firstmod.item.custom.ModArmorItem;
+import com.parkern.firstmod.item.custom.TomahawkItem;
 import com.parkern.firstmod.sound.ModSounds;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
@@ -111,6 +112,9 @@ public class ModItems {
     public static final DeferredItem<Item> GROUSE_SPAWN_EGG = ITEMS.register("grouse_spawn_egg",
             () -> new DeferredSpawnEggItem(ModEntities.GROUSE, 0x271711, 0xeaddd6,
                     new Item.Properties()));
+
+    public static final DeferredItem<Item> TOMAHAWK = ITEMS.register("tomahawk",
+            () -> new TomahawkItem(new Item.Properties().stacksTo(16)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
