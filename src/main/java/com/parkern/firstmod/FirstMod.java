@@ -13,6 +13,8 @@ import com.parkern.firstmod.item.ModItems;
 import com.parkern.firstmod.potion.ModPotions;
 import com.parkern.firstmod.sound.ModSounds;
 import com.parkern.firstmod.util.ModItemProperties;
+import com.parkern.firstmod.worldgen.biome.ModTerraBlender;
+import com.parkern.firstmod.worldgen.biome.surface.ModSurfaceRules;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import org.slf4j.Logger;
 
@@ -31,6 +33,7 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
+import terrablender.api.SurfaceRuleManager;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(FirstMod.MOD_ID)
@@ -66,6 +69,8 @@ public class FirstMod {
         ModEnchantmentEffects.register(modEventBus);
         ModEntities.register(modEventBus);
 
+        ModTerraBlender.registerBiomes();;
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -74,7 +79,9 @@ public class FirstMod {
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
-
+        event.enqueueWork(() -> {
+            SurfaceRuleManager.addSurfaceRules(SurfaceRuleManager.RuleCategory.OVERWORLD, MOD_ID, ModSurfaceRules.makeRules());
+        });
     }
 
     // Add the example block item to the building blocks tab
