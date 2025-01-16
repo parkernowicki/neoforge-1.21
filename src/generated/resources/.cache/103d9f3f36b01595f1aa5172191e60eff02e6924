@@ -1,4 +1,4 @@
-// 1.21.1	2025-01-08T21:58:36.4514612	Registries
+// 1.21.1	2025-01-15T21:21:29.1154456	Registries
 c4ef0127a7ff95f431e83e92f0ec601e9d3e2679 data/firstmod/enchantment/bolt.json
 c1278b086762f4823ccc20cdd8a0bb960716f675 data/firstmod/neoforge/biome_modifier/add_end_titanite_ore.json
 aef28f117313ddef48adb2f6d3acd659f6d56934 data/firstmod/neoforge/biome_modifier/add_goji_berry_bush.json
@@ -9,6 +9,7 @@ e2fd970d6311522d290c0a9809f0a2cfd8ff3875 data/firstmod/neoforge/biome_modifier/a
 85532f8f823bc29b74f4b2f3d6b57f7621679984 data/firstmod/trim_material/titanite.json
 a3c67cbcf68801bd961bed410a6a7c251b3abc94 data/firstmod/trim_pattern/kaupen.json
 d9cf84c97d0623610f0e9327568cda70bd27b042 data/firstmod/worldgen/biome/test_biome.json
+d9cf84c97d0623610f0e9327568cda70bd27b042 data/firstmod/worldgen/biome/test_cave.json
 6b1e32639136d2d70ba483bab40e82421e92e79a data/firstmod/worldgen/configured_feature/bloodwood.json
 7da46ac64d14430c48cc11395cb847f6b39754d7 data/firstmod/worldgen/configured_feature/end_titanite_ore.json
 b2db2b3c5c6ba7faeb075baf4b9a8ae95f8a1a0e data/firstmod/worldgen/configured_feature/goji_berry_bush.json
