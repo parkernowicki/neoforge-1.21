@@ -19,10 +19,13 @@ public class ModBiomes {
             ResourceLocation.fromNamespaceAndPath(FirstMod.MOD_ID, "test_biome"));
     public static final ResourceKey<Biome> TEST_CAVE = ResourceKey.create(Registries.BIOME,
             ResourceLocation.fromNamespaceAndPath(FirstMod.MOD_ID, "test_cave"));
+    public static final ResourceKey<Biome> BLOODWOOD_GROVE = ResourceKey.create(Registries.BIOME,
+            ResourceLocation.fromNamespaceAndPath(FirstMod.MOD_ID, "bloodwood_grove"));
 
     public static void bootstrap(BootstrapContext<Biome> context) {
         context.register(TEST_BIOME, testBiome(context));
-        context.register(TEST_CAVE, testBiome(context));
+        context.register(TEST_CAVE, testCave(context));
+        context.register(BLOODWOOD_GROVE, bloodwoodGrove(context));
     }
 
     public static void globalOverworldGeneration(BiomeGenerationSettings.Builder builder) {
@@ -57,7 +60,6 @@ public class ModBiomes {
 
         BiomeDefaultFeatures.addDefaultMushrooms(biomeBuilder);
         BiomeDefaultFeatures.addDefaultExtraVegetation(biomeBuilder);
-        biomeBuilder.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, ModPlacedFeatures.BLOODWOOD_PLACED_KEY);
 
         return new Biome.BiomeBuilder()
                 .hasPrecipitation(true)
@@ -91,10 +93,6 @@ public class ModBiomes {
         BiomeDefaultFeatures.addDefaultMushrooms(biomeBuilder);
         BiomeDefaultFeatures.addDefaultExtraVegetation(biomeBuilder);
 
-        biomeBuilder.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, VegetationPlacements.BROWN_MUSHROOM_OLD_GROWTH);
-        biomeBuilder.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, VegetationPlacements.RED_MUSHROOM_OLD_GROWTH);
-        biomeBuilder.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, ModPlacedFeatures.BLOODWOOD_PLACED_KEY);
-
         return new Biome.BiomeBuilder()
                 .hasPrecipitation(true)
                 .downfall(0.8f)
@@ -108,6 +106,39 @@ public class ModBiomes {
                         .grassColorOverride(0x7f03fc)
                         .foliageColorOverride(0xd203fc)
                         .fogColor(0x22a1e6)
+                        .ambientMoodSound(AmbientMoodSettings.LEGACY_CAVE_SETTINGS)
+                        .build())
+                .build();
+    }
+
+    private static Biome bloodwoodGrove(BootstrapContext<Biome> context) {
+        MobSpawnSettings.Builder spawnBuilder = new MobSpawnSettings.Builder();
+        BiomeDefaultFeatures.commonSpawns(spawnBuilder);
+
+        BiomeGenerationSettings.Builder biomeBuilder =
+                new BiomeGenerationSettings.Builder(context.lookup(Registries.PLACED_FEATURE), context.lookup(Registries.CONFIGURED_CARVER));
+        globalOverworldGeneration(biomeBuilder);
+        BiomeDefaultFeatures.addDefaultOres(biomeBuilder);
+        BiomeDefaultFeatures.addDefaultSoftDisks(biomeBuilder);
+        BiomeDefaultFeatures.addPlainVegetation(biomeBuilder);
+        BiomeDefaultFeatures.addDefaultMushrooms(biomeBuilder);
+        BiomeDefaultFeatures.addDefaultExtraVegetation(biomeBuilder);
+
+        biomeBuilder.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, ModPlacedFeatures.BLOODWOOD_PLACED_KEY);
+
+        return new Biome.BiomeBuilder()
+                .hasPrecipitation(true)
+                .downfall(0.8f)
+                .temperature(0.8f)
+                .generationSettings(biomeBuilder.build())
+                .mobSpawnSettings(spawnBuilder.build())
+                .specialEffects((new BiomeSpecialEffects.Builder())
+                        .waterColor(0xe80707)
+                        .waterFogColor(0x8a1111)
+                        .skyColor(0x5e1010)
+                        .grassColorOverride(0x730339)
+                        .foliageColorOverride(0x800808)
+                        .fogColor(0x82093e)
                         .ambientMoodSound(AmbientMoodSettings.LEGACY_CAVE_SETTINGS)
                         .build())
                 .build();

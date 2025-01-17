@@ -8,18 +8,18 @@
   },
   "downfall": 0.8,
   "effects": {
-    "fog_color": 2269670,
-    "foliage_color": 13763580,
-    "grass_color": 8324092,
+    "fog_color": 8522046,
+    "foliage_color": 8390664,
+    "grass_color": 7537465,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
-    "sky_color": 3197208,
-    "water_color": 15216187,
-    "water_fog_color": 12524326
+    "sky_color": 6164496,
+    "water_color": 15206151,
+    "water_fog_color": 9048337
   },
   "features": [
     [],
@@ -80,7 +80,8 @@
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin"
+      "minecraft:patch_pumpkin",
+      "firstmod:bloodwood_placed"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -161,5 +162,5 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": -0.5
+  "temperature": 0.8
 }

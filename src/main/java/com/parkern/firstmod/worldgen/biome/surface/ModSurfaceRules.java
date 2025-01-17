@@ -12,6 +12,7 @@ public class ModSurfaceRules {
     private static final SurfaceRules.RuleSource BLUE_TERRACOTTA = makeStateRule(Blocks.BLUE_TERRACOTTA);
     private static final SurfaceRules.RuleSource SNOW_BLOCK = makeStateRule(Blocks.SNOW_BLOCK);
     private static final SurfaceRules.RuleSource BLUE_ICE = makeStateRule(Blocks.BLUE_ICE);
+    private static final SurfaceRules.RuleSource NETHERRACK = makeStateRule(Blocks.NETHERRACK);
 
     public static SurfaceRules.RuleSource makeRules()
     {
@@ -29,6 +30,12 @@ public class ModSurfaceRules {
                         SurfaceRules.sequence(
                                 SurfaceRules.ifTrue(SurfaceRules.ON_FLOOR, SNOW_BLOCK),
                                 SurfaceRules.ifTrue(SurfaceRules.UNDER_FLOOR, BLUE_ICE)
+                        )
+                ),
+                SurfaceRules.ifTrue(SurfaceRules.isBiome(ModBiomes.BLOODWOOD_GROVE),
+                        SurfaceRules.sequence(
+                                SurfaceRules.ifTrue(SurfaceRules.ON_FLOOR, NETHERRACK),
+                                SurfaceRules.ifTrue(SurfaceRules.UNDER_FLOOR, NETHERRACK)
                         )
                 ),
 
