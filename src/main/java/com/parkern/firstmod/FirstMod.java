@@ -5,6 +5,7 @@ import com.parkern.firstmod.component.ModDataComponents;
 import com.parkern.firstmod.effect.ModEffects;
 import com.parkern.firstmod.enchantment.ModEnchantmentEffects;
 import com.parkern.firstmod.entity.ModEntities;
+import com.parkern.firstmod.entity.client.ChairRenderer;
 import com.parkern.firstmod.entity.client.GeckoRenderer;
 import com.parkern.firstmod.entity.client.GrouseRenderer;
 import com.parkern.firstmod.entity.client.TomahawkProjectileRenderer;
@@ -115,6 +116,7 @@ public class FirstMod {
             EntityRenderers.register(ModEntities.GECKO.get(), GeckoRenderer::new);
             EntityRenderers.register(ModEntities.GROUSE.get(), GrouseRenderer::new);
             EntityRenderers.register(ModEntities.TOMAHAWK.get(), TomahawkProjectileRenderer::new);
+            EntityRenderers.register(ModEntities.CHAIR_ENTITY.get(), ChairRenderer::new);
         }
     }
 }

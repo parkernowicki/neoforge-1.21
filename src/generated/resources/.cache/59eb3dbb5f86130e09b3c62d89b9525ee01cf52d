@@ -1,10 +1,11 @@
-// 1.21.1	2024-12-17T20:12:08.3538491	Loot Tables
+// 1.21.1	2025-01-20T14:34:41.8900359	Loot Tables
 e19a851a950898b072c0254e5d2fe1752cf9a67f data/firstmod/loot_table/blocks/bismuth_lamp.json
 958a1b6ef8f54179fd839500692abd773b6eaf43 data/firstmod/loot_table/blocks/bloodwood_leaves.json
 4a723ab12273ab3347969580437a0c3fbafce4cf data/firstmod/loot_table/blocks/bloodwood_log.json
 ec3aedd0ea46688206042454143d83badcb8a899 data/firstmod/loot_table/blocks/bloodwood_planks.json
 358a4126817525446653898590f9fefc75a95188 data/firstmod/loot_table/blocks/bloodwood_sapling.json
 e1c46e75720d354c9e726470fd96aabb7b4bbd6a data/firstmod/loot_table/blocks/bloodwood_wood.json
+e08753118550312a326b78d651e842777851f3f0 data/firstmod/loot_table/blocks/chair.json
 c44f05af00dc9c185f58931cf019e9f13932d5aa data/firstmod/loot_table/blocks/end_titanite_ore.json
 79c3fd7509d9bf8ec0e9a6076ec3942492868d95 data/firstmod/loot_table/blocks/goji_berry_bush.json
 8489cc7980c002bcab91ec947f730235aa02f429 data/firstmod/loot_table/blocks/nether_titanite_ore.json

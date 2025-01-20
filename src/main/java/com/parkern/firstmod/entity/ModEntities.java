@@ -1,6 +1,7 @@
 package com.parkern.firstmod.entity;
 
 import com.parkern.firstmod.FirstMod;
+import com.parkern.firstmod.entity.custom.ChairEntity;
 import com.parkern.firstmod.entity.custom.GeckoEntity;
 import com.parkern.firstmod.entity.custom.GrouseEntity;
 import com.parkern.firstmod.entity.custom.TomahawkProjectileEntity;
@@ -25,6 +26,9 @@ public class ModEntities {
     public static final Supplier<EntityType<TomahawkProjectileEntity>> TOMAHAWK =
             ENTITY_TYPES.register("tomahawk", () -> EntityType.Builder.<TomahawkProjectileEntity>of(TomahawkProjectileEntity::new, MobCategory.MISC)
                     .sized(0.5f, 1.5f).build("tomahawk"));
+    public static final Supplier<EntityType<ChairEntity>> CHAIR_ENTITY =
+            ENTITY_TYPES.register("chair_entity", () -> EntityType.Builder.of(ChairEntity::new, MobCategory.MISC)
+                    .sized(0.5f, 0.5f).build("chair_entity"));
 
     public static void register(IEventBus eventBus) {
         ENTITY_TYPES.register(eventBus);
