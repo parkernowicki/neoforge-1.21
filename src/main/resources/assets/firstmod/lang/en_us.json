@@ -40,6 +40,7 @@
   "item.firstmod.grouse_spawn_egg": "Grouse Spawn Egg",
 
   "item.firstmod.tomahawk": "Tomahawk",
+  "item.firstmod.earth_staff": "Earth Staff",
 
   "block.firstmod.shale_block": "Shale",
   "block.firstmod.titanite_ore": "Titanite Ore",
@@ -97,5 +98,9 @@
 
   "entity.mccourse.gecko": "Gecko",
   "entity.mccourse.grouse": "Grouse",
-  "entity.mccourse.tomahawk": "Tomahawk"
+  "entity.mccourse.tomahawk": "Tomahawk",
+
+  "biome.firstmod.test_biome": "Test Biome",
+  "biome.firstmod.test_cave": "Test Cave",
+  "biome.firstmod.bloodwood_grove": "Bloodwood Grove"
 }

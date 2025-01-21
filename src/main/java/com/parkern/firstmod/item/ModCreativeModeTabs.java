@@ -82,6 +82,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.TOMAHAWK);
 
                         output.accept(ModBlocks.CHAIR.get());
+
+                        output.accept(ModItems.EARTH_STAFF.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {
