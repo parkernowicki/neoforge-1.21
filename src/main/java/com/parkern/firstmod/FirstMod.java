@@ -14,6 +14,7 @@ import com.parkern.firstmod.item.ModItems;
 import com.parkern.firstmod.potion.ModPotions;
 import com.parkern.firstmod.sound.ModSounds;
 import com.parkern.firstmod.util.ModItemProperties;
+import com.parkern.firstmod.villager.ModVillagers;
 import com.parkern.firstmod.worldgen.biome.ModTerraBlender;
 import com.parkern.firstmod.worldgen.biome.surface.ModSurfaceRules;
 import net.minecraft.client.renderer.entity.EntityRenderers;
@@ -70,7 +71,9 @@ public class FirstMod {
         ModEnchantmentEffects.register(modEventBus);
         ModEntities.register(modEventBus);
 
-        ModTerraBlender.registerBiomes();;
+        ModTerraBlender.registerBiomes();
+
+        ModVillagers.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
