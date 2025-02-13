@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "firstmod:test_jigsaw",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 52867204,
+    "spacing": 150,
+    "separation": 40,
+    "type": "minecraft:random_spread"
+  }
+}
