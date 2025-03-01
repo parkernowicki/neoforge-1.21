@@ -1,0 +1,6 @@
+// 1.21.1	2025-02-28T22:10:57.5493007	Global Loot Modifiers : firstmod
+225ca2db03a8e66e36ed0034e9fdd60a64592e7d data/firstmod/loot_modifiers/magic_wand_from_monster_room.json
+82d8cd6ba5e7f086d3d90c659831d9233b2e2372 data/firstmod/loot_modifiers/propane_from_creeper.json
+4b1d421f548b8aa425d6c76e8f1e8c0498c15710 data/firstmod/loot_modifiers/radish_seeds_to_short_grass.json
+36007e12f966e7705eec2e43da3550f58cb0e090 data/firstmod/loot_modifiers/radish_seeds_to_tall_grass.json
+ecb08373ea902e3a0fc6024b6a784d518a66f240 data/neoforge/loot_modifiers/global_loot_modifiers.json

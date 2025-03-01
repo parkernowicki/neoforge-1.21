@@ -11,6 +11,7 @@ import com.parkern.firstmod.entity.client.GrouseRenderer;
 import com.parkern.firstmod.entity.client.TomahawkProjectileRenderer;
 import com.parkern.firstmod.item.ModCreativeModeTabs;
 import com.parkern.firstmod.item.ModItems;
+import com.parkern.firstmod.loot.ModLootModifiers;
 import com.parkern.firstmod.particle.ModParticles;
 import com.parkern.firstmod.particle.WithererParticles;
 import com.parkern.firstmod.potion.ModPotions;
@@ -78,6 +79,8 @@ public class FirstMod {
 
         ModVillagers.register(modEventBus);
         ModParticles.register(modEventBus);
+
+        ModLootModifiers.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
