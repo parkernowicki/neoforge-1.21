@@ -17,14 +17,14 @@ import net.minecraft.world.level.levelgen.GenerationStep;
 public class ModBiomes {
     public static final ResourceKey<Biome> TEST_BIOME = ResourceKey.create(Registries.BIOME,
             ResourceLocation.fromNamespaceAndPath(FirstMod.MOD_ID, "test_biome"));
-    public static final ResourceKey<Biome> TEST_CAVE = ResourceKey.create(Registries.BIOME,
-            ResourceLocation.fromNamespaceAndPath(FirstMod.MOD_ID, "test_cave"));
+    public static final ResourceKey<Biome> FROZEN_CAVES = ResourceKey.create(Registries.BIOME,
+            ResourceLocation.fromNamespaceAndPath(FirstMod.MOD_ID, "frozen_caves"));
     public static final ResourceKey<Biome> BLOODWOOD_GROVE = ResourceKey.create(Registries.BIOME,
             ResourceLocation.fromNamespaceAndPath(FirstMod.MOD_ID, "bloodwood_grove"));
 
     public static void bootstrap(BootstrapContext<Biome> context) {
         context.register(TEST_BIOME, testBiome(context));
-        context.register(TEST_CAVE, testCave(context));
+        context.register(FROZEN_CAVES, frozenCaves(context));
         context.register(BLOODWOOD_GROVE, bloodwoodGrove(context));
     }
 
@@ -80,7 +80,7 @@ public class ModBiomes {
                 .build();
     }
 
-    private static Biome testCave(BootstrapContext<Biome> context) {
+    private static Biome frozenCaves(BootstrapContext<Biome> context) {
         MobSpawnSettings.Builder spawnBuilder = new MobSpawnSettings.Builder();
         BiomeDefaultFeatures.commonSpawns(spawnBuilder);
 
@@ -95,17 +95,15 @@ public class ModBiomes {
 
         return new Biome.BiomeBuilder()
                 .hasPrecipitation(true)
-                .downfall(0.8f)
+                .downfall(0.9f)
                 .temperature(-0.5f)
                 .generationSettings(biomeBuilder.build())
                 .mobSpawnSettings(spawnBuilder.build())
                 .specialEffects((new BiomeSpecialEffects.Builder())
-                        .waterColor(0xe82e3b)
-                        .waterFogColor(0xbf1b26)
-                        .skyColor(0x30c918)
-                        .grassColorOverride(0x7f03fc)
-                        .foliageColorOverride(0xd203fc)
-                        .fogColor(0x22a1e6)
+                        .waterColor(3750089)
+                        .waterFogColor(329011)
+                        .skyColor(8364543)
+                        .fogColor(12638463)
                         .ambientMoodSound(AmbientMoodSettings.LEGACY_CAVE_SETTINGS)
                         .build())
                 .build();

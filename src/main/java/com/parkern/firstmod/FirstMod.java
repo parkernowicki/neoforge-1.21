@@ -11,6 +11,8 @@ import com.parkern.firstmod.entity.client.GrouseRenderer;
 import com.parkern.firstmod.entity.client.TomahawkProjectileRenderer;
 import com.parkern.firstmod.item.ModCreativeModeTabs;
 import com.parkern.firstmod.item.ModItems;
+import com.parkern.firstmod.particle.ModParticles;
+import com.parkern.firstmod.particle.WithererParticles;
 import com.parkern.firstmod.potion.ModPotions;
 import com.parkern.firstmod.sound.ModSounds;
 import com.parkern.firstmod.util.ModItemProperties;
@@ -18,6 +20,7 @@ import com.parkern.firstmod.villager.ModVillagers;
 import com.parkern.firstmod.worldgen.biome.ModTerraBlender;
 import com.parkern.firstmod.worldgen.biome.surface.ModSurfaceRules;
 import net.minecraft.client.renderer.entity.EntityRenderers;
+import net.neoforged.neoforge.client.event.RegisterParticleProvidersEvent;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -74,6 +77,7 @@ public class FirstMod {
         ModTerraBlender.registerBiomes();
 
         ModVillagers.register(modEventBus);
+        ModParticles.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -120,6 +124,11 @@ public class FirstMod {
             EntityRenderers.register(ModEntities.GROUSE.get(), GrouseRenderer::new);
             EntityRenderers.register(ModEntities.TOMAHAWK.get(), TomahawkProjectileRenderer::new);
             EntityRenderers.register(ModEntities.CHAIR_ENTITY.get(), ChairRenderer::new);
+        }
+
+        @SubscribeEvent
+        public static void registerParticleFactories(RegisterParticleProvidersEvent event) {
+            event.registerSpriteSet(ModParticles.WITHERER_PARTICLES.get(), WithererParticles.Provider::new);
         }
     }
 }

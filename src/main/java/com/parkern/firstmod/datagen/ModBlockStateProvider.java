@@ -4,14 +4,12 @@ import com.parkern.firstmod.FirstMod;
 import com.parkern.firstmod.block.ModBlocks;
 import com.parkern.firstmod.block.custom.BismuthLampBlock;
 import com.parkern.firstmod.block.custom.GojiBerryBushBlock;
+import com.parkern.firstmod.block.custom.IcicleBlock;
 import com.parkern.firstmod.block.custom.RadishCropBlock;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.CropBlock;
-import net.minecraft.world.level.block.RotatedPillarBlock;
-import net.minecraft.world.level.block.SweetBerryBushBlock;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockState;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.client.model.generators.ConfiguredModel;
@@ -71,6 +69,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.BLOODWOOD_PLANKS);
         saplingBlock(ModBlocks.BLOODWOOD_SAPLING);
         leavesBlock(ModBlocks.BLOODWOOD_LEAVES);
+
+        makeIcicle((IcicleBlock) ModBlocks.ICICLE.get(), "icicle_", "icicle_");
     }
 
     private void saplingBlock(DeferredBlock<Block> blockRegistryObject) {
@@ -96,6 +96,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
         getVariantBuilder(block).forAllStates(function);
     }
 
+    public void makeIcicle(IcicleBlock block, String modelName, String textureName) {
+        Function<BlockState, ConfiguredModel[]> function = state -> statesIcicle(state, modelName, textureName);
+
+        getVariantBuilder(block).forAllStates(function);
+    }
+
     private ConfiguredModel[] states(BlockState state, CropBlock block, String modelName, String textureName) {
         ConfiguredModel[] models = new ConfiguredModel[1];
         models[0] = new ConfiguredModel(models().crop(modelName + state.getValue(((RadishCropBlock) block).getAgeProperty()),
@@ -108,6 +114,14 @@ public class ModBlockStateProvider extends BlockStateProvider {
         ConfiguredModel[] models = new ConfiguredModel[1];
         models[0] = new ConfiguredModel(models().cross(modelName + state.getValue(GojiBerryBushBlock.AGE),
                 ResourceLocation.fromNamespaceAndPath(FirstMod.MOD_ID, "block/" + textureName + state.getValue(GojiBerryBushBlock.AGE))).renderType("cutout"));
+
+        return models;
+    }
+
+    private ConfiguredModel[] statesIcicle(BlockState state, String modelName, String textureName) {
+        ConfiguredModel[] models = new ConfiguredModel[1];
+        models[0] = new ConfiguredModel(models().cross(modelName + state.getValue(IcicleBlock.TIP_DIRECTION) + "_" + state.getValue(IcicleBlock.THICKNESS),
+                ResourceLocation.fromNamespaceAndPath(FirstMod.MOD_ID, "block/" + textureName + state.getValue(IcicleBlock.TIP_DIRECTION) + "_" + state.getValue(IcicleBlock.THICKNESS))).renderType("cutout"));
 
         return models;
     }

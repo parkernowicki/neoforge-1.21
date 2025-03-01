@@ -81,6 +81,8 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         withExistingParent(ModItems.GECKO_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
         withExistingParent(ModItems.GROUSE_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
+
+        basicItem(ModBlocks.ICICLE.asItem());
     }
 
     private ItemModelBuilder saplingItem(DeferredBlock<Block> item) {

@@ -83,6 +83,8 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.CHAIR.get());
 
+                        output.accept(ModBlocks.ICICLE.get());
+
                         output.accept(ModItems.EARTH_STAFF.get());
                     }).build());
 

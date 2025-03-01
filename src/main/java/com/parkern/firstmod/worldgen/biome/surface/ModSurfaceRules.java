@@ -26,10 +26,11 @@ public class ModSurfaceRules {
                                 SurfaceRules.ifTrue(SurfaceRules.ON_CEILING, BLUE_TERRACOTTA)
                         )
                 ),
-                SurfaceRules.ifTrue(SurfaceRules.isBiome(ModBiomes.TEST_CAVE),
+                SurfaceRules.ifTrue(SurfaceRules.isBiome(ModBiomes.FROZEN_CAVES),
                         SurfaceRules.sequence(
                                 SurfaceRules.ifTrue(SurfaceRules.ON_FLOOR, SNOW_BLOCK),
-                                SurfaceRules.ifTrue(SurfaceRules.UNDER_FLOOR, BLUE_ICE)
+                                SurfaceRules.ifTrue(SurfaceRules.DEEP_UNDER_FLOOR, BLUE_ICE),
+                                SurfaceRules.ifTrue(SurfaceRules.UNDER_CEILING, BLUE_ICE)
                         )
                 ),
                 SurfaceRules.ifTrue(SurfaceRules.isBiome(ModBiomes.BLOODWOOD_GROVE),

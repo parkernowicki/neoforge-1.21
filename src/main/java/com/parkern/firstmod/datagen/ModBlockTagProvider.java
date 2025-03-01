@@ -24,12 +24,15 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.TITANITE_ORE.get())
                 .add(ModBlocks.NETHER_TITANITE_ORE.get())
                 .add(ModBlocks.END_TITANITE_ORE.get())
-                .add(ModBlocks.WITHERER.get());
+                .add(ModBlocks.WITHERER.get())
+                .add(ModBlocks.ICICLE.get());
 
         tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.TITANITE_ORE.get())
                 .add(ModBlocks.NETHER_TITANITE_ORE.get())
                 .add(ModBlocks.END_TITANITE_ORE.get());
+
+        tag(BlockTags.ICE).add(ModBlocks.ICICLE.get());
 
         tag(BlockTags.FENCES).add(ModBlocks.SHALE_FENCE.get());
         tag(BlockTags.FENCE_GATES).add(ModBlocks.SHALE_FENCE_GATE.get());

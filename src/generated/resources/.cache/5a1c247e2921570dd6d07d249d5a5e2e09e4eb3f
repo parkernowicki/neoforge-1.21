@@ -1,4 +1,4 @@
-// 1.21.1	2024-12-17T20:12:08.3569695	Block States: firstmod
+// 1.21.1	2025-02-25T17:54:13.4511141	Block States: firstmod
 b953da76e413facfbadb2d4fce0e0e6d8c0c9df7 assets/firstmod/blockstates/bismuth_lamp.json
 cb0b33433bcf43f6fd00d16841be9305c621ed62 assets/firstmod/blockstates/bloodwood_leaves.json
 a226407e02cbd18b506da591a4a4394a938bb7e5 assets/firstmod/blockstates/bloodwood_log.json
@@ -7,6 +7,7 @@ d9aa0f3c0b362672a63c2f8ef103931a354d21b3 assets/firstmod/blockstates/bloodwood_s
 613324c2fd26b978bbe98ea61d9847e999d270f0 assets/firstmod/blockstates/bloodwood_wood.json
 1d9b98aa42ee1829aa53fc2033967e4b242a6c92 assets/firstmod/blockstates/end_titanite_ore.json
 0b56d52acdb21a17ab3216104aa3a166a0b92f3b assets/firstmod/blockstates/goji_berry_bush.json
+927b1c635b8f36676f745628a6a8ee2ea65d6664 assets/firstmod/blockstates/icicle.json
 7621c1f15d5a644bc6fe7bf4997970cb5d863392 assets/firstmod/blockstates/nether_titanite_ore.json
 c634d9a587a2a73ebc294d2dc674efcca6402b31 assets/firstmod/blockstates/radish_crop.json
 039b66226440296d9cf67ae5bea5fde7b24aaa9e assets/firstmod/blockstates/shale_block.json
@@ -37,6 +38,16 @@ ae17011941e5428eb01807608ce1f8931d58eedf assets/firstmod/models/block/end_titani
 e38a0c6a2f384dedd3329a17159c471431d5e45f assets/firstmod/models/block/goji_berry_bush_stage1.json
 8c217bee129a04ad6e6a03b824727f5eb13ccd8f assets/firstmod/models/block/goji_berry_bush_stage2.json
 394165505c2807c2b58f1967c7a41681af6e634d assets/firstmod/models/block/goji_berry_bush_stage3.json
+0f726fbb3d5fba216e33cd4051210578de0239b0 assets/firstmod/models/block/icicle_down_base.json
+d3fda20afc9e69eb434f04925e88b7d7f72c95e7 assets/firstmod/models/block/icicle_down_frustum.json
+2cc0e73e29c5aa21b6f25a80c85c0f70c2c79430 assets/firstmod/models/block/icicle_down_middle.json
+dbaaed58970c73df450f4b5add8bd122cac86e76 assets/firstmod/models/block/icicle_down_tip.json
+1c8906f81f2a29ccdf3b94932fa5bf36d9941860 assets/firstmod/models/block/icicle_down_tip_merge.json
+037f471ab7bdd30180872f3528edf192c286f706 assets/firstmod/models/block/icicle_up_base.json
+a1ccf8d628b25cea71524021f42c38f12b96d4f5 assets/firstmod/models/block/icicle_up_frustum.json
+7196508cc96015d824d5556f0a8b7d23b2ffa92b assets/firstmod/models/block/icicle_up_middle.json
+d69a31e625f9635f7dfbe5a39c120ce7f8ef359e assets/firstmod/models/block/icicle_up_tip.json
+a6049314d618ef88259d7c10df90d560e3a1cc4d assets/firstmod/models/block/icicle_up_tip_merge.json
 6685a4ae341598d117daf7b73c0fe494d6612a77 assets/firstmod/models/block/nether_titanite_ore.json
 f2076740c0281431d646f648bd851a2166b89a52 assets/firstmod/models/block/radish_crop_stage0.json
 f615b5f2b89f1724236fb1afd71cd11860d13ba4 assets/firstmod/models/block/radish_crop_stage1.json

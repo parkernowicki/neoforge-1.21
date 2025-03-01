@@ -32,13 +32,13 @@ public class ModOverworldRegion extends Region {
                 .weirdness(ParameterUtils.Weirdness.MID_SLICE_NORMAL_ASCENDING, ParameterUtils.Weirdness.MID_SLICE_NORMAL_DESCENDING)
                 .build().forEach(point -> builder.add(point, ModBiomes.TEST_BIOME));
         new ParameterUtils.ParameterPointListBuilder()
-                .temperature(ParameterUtils.Temperature.span(ParameterUtils.Temperature.COOL, ParameterUtils.Temperature.FROZEN))
-                .humidity(ParameterUtils.Humidity.span(ParameterUtils.Humidity.DRY, ParameterUtils.Humidity.NEUTRAL))
-                .continentalness(ParameterUtils.Continentalness.INLAND)
-                .erosion(ParameterUtils.Erosion.EROSION_0, ParameterUtils.Erosion.EROSION_1)
-                .depth(ParameterUtils.Depth.UNDERGROUND, ParameterUtils.Depth.FLOOR)
-                .weirdness(ParameterUtils.Weirdness.MID_SLICE_NORMAL_ASCENDING, ParameterUtils.Weirdness.MID_SLICE_NORMAL_DESCENDING)
-                .build().forEach(point -> builder.add(point, ModBiomes.TEST_CAVE));
+                .temperature(ParameterUtils.Temperature.ICY)
+                .humidity(ParameterUtils.Humidity.FULL_RANGE)
+                .continentalness(ParameterUtils.Continentalness.FULL_RANGE)
+                .erosion(ParameterUtils.Erosion.FULL_RANGE)
+                .depth(ParameterUtils.Depth.UNDERGROUND)
+                .weirdness(ParameterUtils.Weirdness.FULL_RANGE)
+                .build().forEach(point -> builder.add(point, ModBiomes.FROZEN_CAVES));
         new ParameterUtils.ParameterPointListBuilder()
                 .temperature(ParameterUtils.Temperature.span(ParameterUtils.Temperature.WARM, ParameterUtils.Temperature.HOT))
                 .humidity(ParameterUtils.Humidity.span(ParameterUtils.Humidity.NEUTRAL, ParameterUtils.Humidity.WET))
