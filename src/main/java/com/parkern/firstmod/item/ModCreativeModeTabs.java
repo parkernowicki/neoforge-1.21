@@ -82,6 +82,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.TOMAHAWK);
 
                         output.accept(ModBlocks.CHAIR.get());
+                        output.accept(ModBlocks.PEDESTAL.get());
 
                         output.accept(ModBlocks.ICICLE.get());
 

@@ -1,6 +1,7 @@
 package com.parkern.firstmod;
 
 import com.parkern.firstmod.block.ModBlocks;
+import com.parkern.firstmod.block.entity.ModBlockEntities;
 import com.parkern.firstmod.component.ModDataComponents;
 import com.parkern.firstmod.effect.ModEffects;
 import com.parkern.firstmod.enchantment.ModEnchantmentEffects;
@@ -81,6 +82,7 @@ public class FirstMod {
         ModParticles.register(modEventBus);
 
         ModLootModifiers.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
