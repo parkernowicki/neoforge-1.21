@@ -18,6 +18,8 @@ import com.parkern.firstmod.loot.ModLootModifiers;
 import com.parkern.firstmod.particle.ModParticles;
 import com.parkern.firstmod.particle.WithererParticles;
 import com.parkern.firstmod.potion.ModPotions;
+import com.parkern.firstmod.screen.ModMenuTypes;
+import com.parkern.firstmod.screen.custom.PedestalScreen;
 import com.parkern.firstmod.sound.ModSounds;
 import com.parkern.firstmod.util.ModItemProperties;
 import com.parkern.firstmod.villager.ModVillagers;
@@ -25,6 +27,7 @@ import com.parkern.firstmod.worldgen.biome.ModTerraBlender;
 import com.parkern.firstmod.worldgen.biome.surface.ModSurfaceRules;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.neoforged.neoforge.client.event.EntityRenderersEvent;
+import net.neoforged.neoforge.client.event.RegisterMenuScreensEvent;
 import net.neoforged.neoforge.client.event.RegisterParticleProvidersEvent;
 import org.slf4j.Logger;
 
@@ -87,6 +90,8 @@ public class FirstMod {
         ModLootModifiers.register(modEventBus);
         ModBlockEntities.register(modEventBus);
 
+        ModMenuTypes.register(modEventBus);
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -143,6 +148,11 @@ public class FirstMod {
         @SubscribeEvent
         public static void registerBER(EntityRenderersEvent.RegisterRenderers event) {
             event.registerBlockEntityRenderer(ModBlockEntities.PEDESTAL_BE.get(), PedestalBlockEntityRenderer::new);
+        }
+
+        @SubscribeEvent
+        public static void registerScreens(RegisterMenuScreensEvent event) {
+            event.register(ModMenuTypes.PEDESTAL_MENU.get(), PedestalScreen::new);
         }
     }
 }
