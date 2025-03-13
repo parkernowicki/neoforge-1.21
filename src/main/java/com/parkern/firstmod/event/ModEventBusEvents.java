@@ -5,8 +5,11 @@ import com.parkern.firstmod.entity.ModEntities;
 import com.parkern.firstmod.entity.client.GeckoModel;
 import com.parkern.firstmod.entity.client.GrouseModel;
 import com.parkern.firstmod.entity.client.TomahawkProjectileModel;
+import com.parkern.firstmod.entity.client.TuskyModel;
 import com.parkern.firstmod.entity.custom.GeckoEntity;
 import com.parkern.firstmod.entity.custom.GrouseEntity;
+import com.parkern.firstmod.entity.custom.TuskyEntity;
+import net.minecraft.world.entity.PathfinderMob;
 import net.minecraft.world.entity.SpawnPlacementTypes;
 import net.minecraft.world.entity.animal.Animal;
 import net.minecraft.world.level.levelgen.Heightmap;
@@ -23,12 +26,14 @@ public class ModEventBusEvents {
         event.registerLayerDefinition(GeckoModel.LAYER_LOCATION, GeckoModel::createBodyLayer);
         event.registerLayerDefinition(GrouseModel.LAYER_LOCATION, GrouseModel::createBodyLayer);
         event.registerLayerDefinition(TomahawkProjectileModel.LAYER_LOCATION, TomahawkProjectileModel::createBodyLayer);
+        event.registerLayerDefinition(TuskyModel.LAYER_LOCATION, TuskyModel::createBodyLayer);
     }
 
     @SubscribeEvent
     public static void registerAttributes(EntityAttributeCreationEvent event) {
         event.put(ModEntities.GECKO.get(), GeckoEntity.createAttributes().build());
         event.put(ModEntities.GROUSE.get(), GrouseEntity.createAttributes().build());
+        event.put(ModEntities.TUSKY.get(), TuskyEntity.createAttributes().build());
     }
 
     @SubscribeEvent
@@ -37,5 +42,7 @@ public class ModEventBusEvents {
                 Animal::checkAnimalSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
         event.register(ModEntities.GROUSE.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
                 Animal::checkAnimalSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
+        event.register(ModEntities.TUSKY.get(), SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+                PathfinderMob::checkMobSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
     }
 }

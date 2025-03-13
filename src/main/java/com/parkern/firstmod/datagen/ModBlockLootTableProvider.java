@@ -91,6 +91,8 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
         this.dropSelf(ModBlocks.CHAIR.get());
         this.dropWhenSilkTouch(ModBlocks.ICICLE.get());
+
+        this.dropSelf(ModBlocks.PEDESTAL.get());
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {
