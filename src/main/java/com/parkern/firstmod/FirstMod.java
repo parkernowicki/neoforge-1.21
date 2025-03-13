@@ -2,6 +2,7 @@ package com.parkern.firstmod;
 
 import com.parkern.firstmod.block.ModBlocks;
 import com.parkern.firstmod.block.entity.ModBlockEntities;
+import com.parkern.firstmod.block.entity.renderer.PedestalBlockEntityRenderer;
 import com.parkern.firstmod.component.ModDataComponents;
 import com.parkern.firstmod.effect.ModEffects;
 import com.parkern.firstmod.enchantment.ModEnchantmentEffects;
@@ -23,6 +24,7 @@ import com.parkern.firstmod.villager.ModVillagers;
 import com.parkern.firstmod.worldgen.biome.ModTerraBlender;
 import com.parkern.firstmod.worldgen.biome.surface.ModSurfaceRules;
 import net.minecraft.client.renderer.entity.EntityRenderers;
+import net.neoforged.neoforge.client.event.EntityRenderersEvent;
 import net.neoforged.neoforge.client.event.RegisterParticleProvidersEvent;
 import org.slf4j.Logger;
 
@@ -136,6 +138,11 @@ public class FirstMod {
         @SubscribeEvent
         public static void registerParticleFactories(RegisterParticleProvidersEvent event) {
             event.registerSpriteSet(ModParticles.WITHERER_PARTICLES.get(), WithererParticles.Provider::new);
+        }
+
+        @SubscribeEvent
+        public static void registerBER(EntityRenderersEvent.RegisterRenderers event) {
+            event.registerBlockEntityRenderer(ModBlockEntities.PEDESTAL_BE.get(), PedestalBlockEntityRenderer::new);
         }
     }
 }
