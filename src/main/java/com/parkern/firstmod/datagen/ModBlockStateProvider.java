@@ -70,6 +70,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         saplingBlock(ModBlocks.BLOODWOOD_SAPLING);
         leavesBlock(ModBlocks.BLOODWOOD_LEAVES);
 
+        blockWithItem(ModBlocks.GROWTH_CHAMBER);
+
         makeIcicle((IcicleBlock) ModBlocks.ICICLE.get(), "icicle_", "icicle_");
     }
 

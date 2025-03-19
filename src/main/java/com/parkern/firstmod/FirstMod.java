@@ -19,6 +19,7 @@ import com.parkern.firstmod.particle.ModParticles;
 import com.parkern.firstmod.particle.WithererParticles;
 import com.parkern.firstmod.potion.ModPotions;
 import com.parkern.firstmod.screen.ModMenuTypes;
+import com.parkern.firstmod.screen.custom.GrowthChamberScreen;
 import com.parkern.firstmod.screen.custom.PedestalScreen;
 import com.parkern.firstmod.sound.ModSounds;
 import com.parkern.firstmod.util.ModItemProperties;
@@ -153,6 +154,7 @@ public class FirstMod {
         @SubscribeEvent
         public static void registerScreens(RegisterMenuScreensEvent event) {
             event.register(ModMenuTypes.PEDESTAL_MENU.get(), PedestalScreen::new);
+            event.register(ModMenuTypes.GROWTH_CHAMBER_MENU.get(), GrowthChamberScreen::new);
         }
     }
 }
