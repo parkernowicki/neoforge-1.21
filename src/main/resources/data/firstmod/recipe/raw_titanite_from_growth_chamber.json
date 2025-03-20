@@ -1,0 +1,9 @@
+{
+  "type": "firstmod:growth_chamber",
+  "ingredient": {
+    "item": "firstmod:raw_titanite"
+  },
+  "result": {
+    "id": "firstmod:titanite_sword"
+  }
+}

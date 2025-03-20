@@ -18,6 +18,7 @@ import com.parkern.firstmod.loot.ModLootModifiers;
 import com.parkern.firstmod.particle.ModParticles;
 import com.parkern.firstmod.particle.WithererParticles;
 import com.parkern.firstmod.potion.ModPotions;
+import com.parkern.firstmod.recipe.ModRecipes;
 import com.parkern.firstmod.screen.ModMenuTypes;
 import com.parkern.firstmod.screen.custom.GrowthChamberScreen;
 import com.parkern.firstmod.screen.custom.PedestalScreen;
@@ -92,6 +93,7 @@ public class FirstMod {
         ModBlockEntities.register(modEventBus);
 
         ModMenuTypes.register(modEventBus);
+        ModRecipes.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
